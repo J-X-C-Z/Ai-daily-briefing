@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{META_DESCRIPTION}}">
+    <title>{{TITLE}}</title>
+
+    <!--
+    ============================================================
+    网页版早报模板（web.html）
+    与邮件版 email.html 分离：本模板为宽屏 + 右侧悬浮导航，
+    专供浏览器打开（output/preview）。后续由 GPT 优化 UI 时，
+    只改本文件的 <style> 与 <script>，不要改 {{占位符}} 与数据结构。
+
+    注入占位符（由 scripts/generate.js 填充）：
+      {{TITLE}}               标题
+      {{DATE_LINE}}           日期行
+      {{SUMMARY_OVERVIEW}}    摘要概览文本
+      {{KEY_POINTS_HTML}}     要点列表 <li>
+      {{HIGHLIGHTS_HTML}}     重点新闻卡片组
+      {{CATEGORIES_HTML}}     栏目区块组（每个 <section id="cat-xxx">）
+      {{NAV_HTML}}            右侧导航项 <a href="#cat-xxx">
+      {{FOOTER}}              页脚文字
+    ============================================================
+    -->
+    <style>
+        /* ===== 设计变量（GPT 改主题只改这里） ===== */
+        :root {
+            --bg: #f4f5f7;
+            --card: #ffffff;
+            --border: #e8e8e8;
+            --text: #202124;
+            --text-2: #555555;
+            --text-3: #888888;
+            --accent: #2463eb;
+            --accent-bg: #eef2ff;
+            --radius: 12px;
+            --nav-width: 200px;
+            --content-max: 860px;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            background: var(--bg);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                         "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+                         Arial, sans-serif;
+            color: var(--text);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a { text-decoration: none; color: var(--accent); }
+
+        /* ===== 整体布局 ===== */
+        .app-header {
+            max-width: calc(var(--content-max) + var(--nav-width) + 48px);
+            margin: 0 auto;
+            padding: 32px 24px 20px;
+            display: flex;
+            align-items: baseline;
+            gap: 16px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .app-header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 700;
+            color: #111;
+        }
+
+        .app-date {
+            font-size: 13px;
+            color: var(--text-3);
+        }
+
+        .layout {
+            max-width: calc(var(--content-max) + var(--nav-width) + 64px);
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr var(--nav-width);
+            gap: 32px;
+            padding: 24px;
+            align-items: start;
+        }
+
+        .content {
+            max-width: var(--content-max);
+            min-width: 0;
+        }
+
+        /* ===== 右侧悬浮导航 ===== */
+        .side-nav {
+            position: sticky;
+            top: 24px;
+            align-self: start;
+            max-height: calc(100vh - 48px);
+            overflow-y: auto;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 16px 12px;
+        }
+
+        .nav-title {
+            margin: 0 10px 10px;
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--text-3);
+            text-transform: uppercase;
+            letter-spacing: .5px;
+        }
+
+        .nav-item {
+            display: block;
+            padding: 8px 10px;
+            margin-bottom: 2px;
+            border-radius: 8px;
+            font-size: 14px;
+            color: var(--text-2);
+            transition: background .15s, color .15s;
+        }
+
+        .nav-item:hover { background: var(--bg); }
+
+        .nav-item.active {
+            background: var(--accent-bg);
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        .nav-item-top { color: #b45309; }
+        .nav-item-top.active { background: #fff4e5; color: #b45309; }
+
+        /* ===== 摘要 ===== */
+        .summary-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 24px;
+            margin-bottom: 20px;
+        }
+
+        .summary-card .overview {
+            margin: 0 0 14px;
+            font-size: 15px;
+            line-height: 26px;
+            color: var(--text-2);
+        }
+
+        .key-points {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .key-points li {
+            margin-bottom: 6px;
+            font-size: 14px;
+            line-height: 24px;
+            color: var(--text-2);
+        }
+
+        /* ===== 重点新闻 / 栏目 通用区块 ===== */
+        .category,
+        .highlights {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 20px 24px;
+            margin-bottom: 20px;
+            scroll-margin-top: 16px;
+        }
+
+        .category-head { margin-bottom: 12px; }
+
+        .category-name {
+            margin: 0 0 4px;
+            font-size: 20px;
+            font-weight: 700;
+            color: #111;
+        }
+
+        .category-desc {
+            margin: 0;
+            font-size: 12px;
+            color: var(--text-3);
+        }
+
+        /* ===== 重点新闻卡片 ===== */
+        .hl-card {
+            padding: 16px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .hl-card:last-child { border-bottom: none; }
+
+        .hl-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 12px;
+        }
+
+        .hl-title {
+            margin: 0 0 8px;
+            font-size: 18px;
+            font-weight: 700;
+            color: #111;
+        }
+
+        .hl-meta {
+            margin-bottom: 10px;
+            font-size: 12px;
+            color: var(--text-3);
+        }
+
+        .hl-summary {
+            margin: 0 0 10px;
+            font-size: 14px;
+            line-height: 24px;
+            color: var(--text-2);
+        }
+
+        .hl-tags span {
+            display: inline-block;
+            margin: 0 4px 4px 0;
+            padding: 2px 8px;
+            border-radius: 4px;
+            background: var(--bg);
+            font-size: 11px;
+            color: var(--text-3);
+        }
+
+        .hl-link {
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        /* ===== 栏目内单条新闻 ===== */
+        .news-item {
+            padding: 16px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .news-item:last-child { border-bottom: none; }
+
+        .news-title {
+            margin: 0 0 6px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #222;
+        }
+
+        .news-meta {
+            margin-bottom: 8px;
+            font-size: 12px;
+            color: var(--text-3);
+        }
+
+        .news-summary {
+            margin: 0 0 8px;
+            font-size: 14px;
+            line-height: 23px;
+            color: var(--text-2);
+        }
+
+        .news-tags span {
+            display: inline-block;
+            margin: 0 4px 4px 0;
+            padding: 2px 8px;
+            border-radius: 4px;
+            background: var(--bg);
+            font-size: 11px;
+            color: var(--text-3);
+        }
+
+        .news-link { font-size: 12px; }
+
+        /* ===== 类型/重要性徽标 ===== */
+        .chip {
+            display: inline-block;
+            margin-right: 4px;
+            padding: 1px 7px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+            vertical-align: 1px;
+        }
+        .chip-imp { background: var(--accent-bg); color: var(--accent); }
+        .chip-rumor { background: #fff4e5; color: #b45309; }
+
+        /* ===== 页脚 ===== */
+        .app-footer {
+            text-align: center;
+            padding: 24px;
+            font-size: 11px;
+            color: var(--text-3);
+        }
+
+        /* ===== 响应式：窄屏时导航收拢到顶部 ===== */
+        @media (max-width: 900px) {
+            .layout { grid-template-columns: 1fr; }
+            .side-nav {
+                position: static;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 4px;
+                padding: 10px;
+            }
+            .nav-title { width: 100%; }
+            .nav-item { padding: 6px 10px; margin: 0; }
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="app-header">
+    <h1>{{TITLE}}</h1>
+    <div class="app-date">{{DATE_LINE}}</div>
+</header>
+
+<div class="layout">
+
+    <!-- 左侧内容区 -->
+    <main class="content">
+
+        <!-- 今日摘要 -->
+        <section class="summary-card" id="cat-summary">
+            <div class="category-head">
+                <h2 class="category-name">今日摘要</h2>
+            </div>
+            <p class="overview">{{SUMMARY_OVERVIEW}}</p>
+            <ul class="key-points">
+                {{KEY_POINTS_HTML}}
+            </ul>
+        </section>
+
+        <!-- 重点新闻（有则显示；注入自 HIGHLIGHTS_HTML） -->
+        {{HIGHLIGHTS_HTML}}
+
+        <!-- 全部栏目（注入自 CATEGORIES_HTML，每栏一个 <section id="cat-xxx">） -->
+        {{CATEGORIES_HTML}}
+
+    </main>
+
+    <!-- 右侧悬浮导航 -->
+    <aside class="side-nav">
+        <p class="nav-title">栏目导航</p>
+        <nav class="nav-list">
+            <a class="nav-item" href="#cat-summary" data-target="#cat-summary">今日摘要</a>
+            {{NAV_HTML}}
+        </nav>
+    </aside>
+
+</div>
+
+<footer class="app-footer">
+    {{FOOTER}} · {{DATE_LINE}}
+</footer>
+
+<script>
+/* ============================================================
+ * 悬浮导航交互：点击平滑滚动 + 滚动时高亮当前栏目
+ * GPT 若要改交互逻辑，请保持 data-target 锚点约定不变。
+ * ============================================================ */
+(function () {
+    const navItems = Array.from(document.querySelectorAll('.nav-item'));
+    const targets = navItems.map(a => a.getAttribute('data-target')).filter(Boolean);
+    const sections = targets.map(sel => document.querySelector(sel)).filter(Boolean);
+
+    // 点击平滑滚动
+    navItems.forEach(a => {
+        a.addEventListener('click', (e) => {
+            const sel = a.getAttribute('data-target');
+            if (!sel) return;
+            e.preventDefault();
+            const el = document.querySelector(sel);
+            if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+    });
+
+    // 滚动高亮当前栏目（IntersectionObserver）
+    if ('IntersectionObserver' in window && sections.length) {
+        const setActive = (id) => {
+            navItems.forEach(a => {
+                a.classList.toggle('active', a.getAttribute('data-target') === '#' + id);
+            });
+        };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    setActive(entry.target.id);
+                }
+            });
+        }, { rootMargin: '-20% 0px -70% 0px' });
+        sections.forEach(s => observer.observe(s));
+    }
+})();
+</script>
+
+</body>
+</html>

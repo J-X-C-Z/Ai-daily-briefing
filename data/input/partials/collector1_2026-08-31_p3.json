@@ -1,0 +1,345 @@
+{
+  "bot": "collector-1",
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T16:00:00+08:00",
+  "note": "Batch 3: 开源与开发者、免费与低价福利、科技研究、机器人与航天。NASA Roman望远镜发射、DeepMind Co-Scientist、OpenAI数学突破、GitHub趋势项目。",
+  "categories": [
+    {
+      "id": "open_source",
+      "items": [
+        {
+          "id": "os-001",
+          "type": "news",
+          "title": "腾讯 Hy4 Preview 以 Apache 2.0 许可证开源，7700亿参数模型免费可用",
+          "importance": 4,
+          "published_at": "2026-08-29T10:00:00+08:00",
+          "source": {
+            "name": "Hugging Face / TechNode",
+            "url": "https://technode.com/2026/08/28/tencent-open-sources-hy4-preview-with-770b-parameters-and-a-1m-token-context/"
+          },
+          "image": null,
+          "tags": ["开源", "腾讯", "Hy4", "大模型", "Apache"],
+          "summary": "腾讯将7700亿参数的 Hy4 Preview 大模型以 Apache 2.0 许可证在 Hugging Face 开源，提供 FP8 权重和 Docker 部署方案。",
+          "details": [
+            "Hy4 Preview 以完全开源的 Apache 2.0 许可证发布。",
+            "提供 FP8 量化权重以及 vLLM 和 SGLang 的 Docker 部署方案。",
+            "开发者可直接在 Hugging Face 上下载并部署模型。",
+            "API 定价极具竞争力，输入仅 $0.834/百万 Token。"
+          ],
+          "analysis": "Apache 2.0 许可证的选择意味着腾讯在开源 AI 领域采取了最开放的策略，将极大促进全球开发者社区的采用。",
+          "related": []
+        },
+        {
+          "id": "os-002",
+          "type": "news",
+          "title": "vLLM v0.28.0 发布：584个提交，新增 Kimi-K3 和 DeepSeek V4 支持",
+          "importance": 3,
+          "published_at": "2026-08-30T12:00:00+08:00",
+          "source": {
+            "name": "vLLM GitHub",
+            "url": "https://github.com/vllm-project/vllm"
+          },
+          "image": null,
+          "tags": ["vLLM", "开源", "推理框架", "Kimi-K3", "DeepSeek"],
+          "summary": "vLLM 推理框架发布 v0.28.0 版本，包含584个提交和270位贡献者，新增对 Kimi-K3 和 DeepSeek V4 模型的原生支持。",
+          "details": [
+            "v0.28.0 是 vLLM 项目迄今最大规模的更新之一。",
+            "新增对 Moonshot AI Kimi-K3 和 DeepSeek V4 的原生性能优化。",
+            "来自270位贡献者的584个提交，展示了活跃的开源社区。",
+            "进一步提升了 LLM 推理服务的吞吐量和效率。"
+          ],
+          "analysis": "vLLM 的持续迭代巩固了其作为开源 LLM 推理基础设施核心组件的地位，对中国模型的支持扩展了全球生态。",
+          "related": []
+        },
+        {
+          "id": "os-003",
+          "type": "news",
+          "title": "GitHub 趋势：livekit/agents 和 scientific-agent-skills 等项目热度攀升",
+          "importance": 3,
+          "published_at": "2026-08-30T10:00:00+08:00",
+          "source": {
+            "name": "GitHub Trending",
+            "url": "https://github.com/explore"
+          },
+          "image": null,
+          "tags": ["GitHub", "开源", "趋势项目", "AI Agent", "实时语音"],
+          "summary": "GitHub 趋势项目榜显示 livekit/agents（实时语音 AI Agent 框架）和 scientific-agent-skills（科研 Agent 技能库）等项目热度持续攀升。",
+          "details": [
+            "livekit/agents 拥有13.8k星，专注于实时语音和视频 AI Agent 构建。",
+            "scientific-agent-skills 拥有39.4k星，为科研场景提供 Agent 技能支持。",
+            "THU-MAIC/OpenMAIC（清华多智能体交互课堂）拥有24.4k星。",
+            "GitHub 趋势反映了 AI Agent 和多智能体系统正在成为开发者社区的热点方向。"
+          ],
+          "analysis": "AI Agent 和多智能体系统正从研究走向工程实践，开源社区在这一方向上的活跃度预示着 Agent 生态的快速成熟。",
+          "related": []
+        },
+        {
+          "id": "os-004",
+          "type": "news",
+          "title": "OpenAI 发布10项数学突破：Astra 模型在未解问题上取得进展",
+          "importance": 4,
+          "published_at": "2026-08-01T08:00:00+08:00",
+          "source": {
+            "name": "OpenAI / GitHub",
+            "url": "https://github.com/openai/ten-proofs"
+          },
+          "image": null,
+          "tags": ["OpenAI", "Astra", "数学", "Lean", "形式化证明", "研究"],
+          "summary": "OpenAI 发布论文和 Lean 4 形式化证明，展示其下一代旗舰模型 Astra 在10个数学和理论计算机科学未解问题上取得新进展。",
+          "details": [
+            "Astra 模型在高维球体堆积密度、二进制码上界等10个长期未解问题上取得突破。",
+            "所有证明均以 Lean 4 软件形式化验证，可在 GitHub 上独立检验。",
+            "涉及算术电路复杂性、群论、算子代数、量子复杂性、格密码学等多个领域。",
+            "这是 OpenAI 首次将数学能力评估从测试题扩展到真实未解研究问题。"
+          ],
+          "analysis": "Astra 模型在数学前沿问题上的突破标志着 AI 在纯数学研究领域的重大进展，形式化验证确保了结果的可靠性。",
+          "related": []
+        }
+      ]
+    },
+    {
+      "id": "free_deals",
+      "items": [
+        {
+          "id": "fd-001",
+          "type": "deal",
+          "title": "Anthropic Claude Sonnet 5 促销价格8月31日到期，标准价格上调50%",
+          "importance": 3,
+          "published_at": "2026-08-31T00:00:00+08:00",
+          "source": {
+            "name": "Anthropic / Digital Applied",
+            "url": "https://www.digitalapplied.com/blog/ai-model-releases-august-2026-tracker"
+          },
+          "image": null,
+          "tags": ["Anthropic", "Claude", "定价", "促销到期", "AI工具"],
+          "summary": "Anthropic Claude Sonnet 5 的促销定价于8月31日到期，输入价格从 $2/百万Token 上调至 $3/百万Token，输出从 $10 上调至 $15，涨幅50%。",
+          "details": [
+            "Sonnet 5 促销价于8月31日到期，标准价统一上调50%。",
+            "输入价格从 $2/百万Token 上调至 $3/百万Token。",
+            "输出价格从 $10/百万Token 上调至 $15/百万Token。",
+            "此前的低价策略旨在快速获取用户，现在进入商业化阶段。"
+          ],
+          "analysis": "Sonnet 5 价格上调反映了 Anthropic 从用户增长转向盈利的策略转变，对依赖低价 API 的开发者团队构成成本压力。",
+          "related": []
+        },
+        {
+          "id": "fd-002",
+          "type": "deal",
+          "title": "Anthropic 为科学家提供1万个免费和优惠 Claude 订阅席位",
+          "importance": 4,
+          "published_at": "2026-08-27T08:00:00+08:00",
+          "source": {
+            "name": "Unite.AI / Anthropic",
+            "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+          },
+          "image": null,
+          "tags": ["Anthropic", "Claude", "免费", "科学家", "AI for Science"],
+          "summary": "Anthropic 为科学家提供1万个免费和优惠 Claude Team 订阅席位，标准席位免费，高级席位仅需 $15/月，并扩展 AI for Science 信贷计划。",
+          "details": [
+            "标准席位完全免费（原价 $20/月），高级席位 $15/月（原价 $100/月）。",
+            "申请者须为学术或非营利研究机构的首席研究员。",
+            "AI for Science 信贷计划扩展至生物学以外的更多学科。",
+            "研究人员可申请每个项目最高 $50,000 的 API 额度。",
+            "已有10,000个席位可用，Anthropic 计划在未来数月进一步扩展。"
+          ],
+          "analysis": "Anthropic 通过免费和低价策略积极争夺科研用户群，既建立学术影响力，也为未来的商业转化奠定基础。",
+          "related": []
+        },
+        {
+          "id": "fd-003",
+          "type": "deal",
+          "title": "DALL·E GPT 于8月30日在 ChatGPT 中正式退役",
+          "importance": 2,
+          "published_at": "2026-08-30T00:00:00+08:00",
+          "source": {
+            "name": "OpenAI / Digital Applied",
+            "url": "https://www.digitalapplied.com/blog/ai-model-releases-august-2026-tracker"
+          },
+          "image": null,
+          "tags": ["OpenAI", "DALL·E", "ChatGPT", "退役", "产品调整"],
+          "summary": "OpenAI 的 DALL·E GPT 于8月30日在 ChatGPT 中正式退役，ChatGPT Images 和用户自定义 GPT 不受影响。",
+          "details": [
+            "DALL·E GPT 于8月30日在 ChatGPT 平台正式退役。",
+            "ChatGPT Images 功能继续保留，不受影响。",
+            "用户创建的启用了图像生成功能的自定义 GPT 也不受影响。",
+            "此前的 o3 模型已于8月26日从 ChatGPT 退役。"
+          ],
+          "analysis": "DALL·E GPT 的退役是 OpenAI 持续优化产品线的体现，ChatGPT 的图像生成能力正向更集成化的方向演进。",
+          "related": []
+        },
+        {
+          "id": "fd-004",
+          "type": "deal",
+          "title": "Google 向美国大学生免费提供一年 AI Pro 订阅，含5TB存储",
+          "importance": 3,
+          "published_at": "2026-08-19T08:00:00+08:00",
+          "source": {
+            "name": "Google Blog / Technology.org",
+            "url": "https://www.technology.org/2026/08/20/google-ai-pro-free-year-college-students/"
+          },
+          "image": null,
+          "tags": ["Google", "Gemini", "免费", "学生优惠", "AI Pro"],
+          "summary": "Google 向美国合格大学生免费提供一年 Google AI Pro 订阅，包含4倍 Gemini 使用限额、Gemini Spark、5TB存储和 Google Health Premium。",
+          "details": [
+            "美国大学生可获得12个月免费 Google AI Pro 订阅（价值约$240/年）。",
+            "包含4倍 Gemini 使用限额、Gemini Spark、Gmail 和 Docs 中的 AI 功能。",
+            "附赠5TB云存储和 Google Health Premium。",
+            "140多个其他市场的学生可免费获得 Google AI Plus（含 Gemini Omni 和400GB存储）。",
+            "领取截止日期为2026年12月31日，到期后自动续费。"
+          ],
+          "analysis": "Google 通过大规模免费策略争夺学生用户群，既是增长手段也是对抗 Anthropic 和 OpenAI 在教育领域扩张的防御措施。",
+          "related": []
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "items": [
+        {
+          "id": "re-001",
+          "type": "news",
+          "title": "Google DeepMind Co-Scientist 升级：从假说生成器变为实验室集成研究伙伴",
+          "importance": 5,
+          "published_at": "2026-08-27T10:00:00+08:00",
+          "source": {
+            "name": "Google DeepMind / arXiv",
+            "url": "https://arxiv.org/abs/2608.26701"
+          },
+          "image": null,
+          "tags": ["Google DeepMind", "Co-Scientist", "AI科研", "Gemini", "实验自动化"],
+          "summary": "Google DeepMind 将 Co-Scientist 从假说生成器升级为可规划实验、编写代码、控制实验室设备并撰写论文的闭环研究伙伴，已在材料科学、生物学和计算机科学领域通过验证。",
+          "details": [
+            "Co-Scientist 现可基于 Gemini 模型规划实验、编写代码并直接控制实验室设备。",
+            "在材料科学领域设计了安全的 MXene 合成路线，首次尝试即成功生长单层半导体。",
+            "利用 Gemini 3 Deep Think 进行直接设备控制，将配方开发时间从数天缩短至数分钟。",
+            "在双盲研究中，Co-Scientist 有4%的结果被标记为捏造（开启可靠性模块），而对比系统为46%。",
+            "在计算机科学领域完全自主设计了医疗 AI 架构。"
+          ],
+          "analysis": "Co-Scientist 从软件假说到硬件实验的跨越标志着 AI 科研从辅助工具向自主研究伙伴的重大转变。",
+          "related": []
+        },
+        {
+          "id": "re-002",
+          "type": "news",
+          "title": "Anthropic 发布论文：自动化研究员可可靠缓解对齐失败",
+          "importance": 4,
+          "published_at": "2026-08-28T08:00:00+08:00",
+          "source": {
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com/research"
+          },
+          "image": null,
+          "tags": ["Anthropic", "AI安全", "对齐", "研究", "自动化"],
+          "summary": "Anthropic 新论文表明前沿模型可自主缓解10种不同类型的对齐失败，包括欺骗、谄媚、越狱、权力寻求和幻觉，效率比人类高出4.25倍。",
+          "details": [
+            "Anthropic 论文证明 AI 可自主缓解包括欺骗、谄媚、越狱在内的10种对齐失败。",
+            "自动化缓解方法比人类方法便宜37.5倍、速度快得多、效果高出4.25倍。",
+            "该方法通过迭代循环的文献搜索、方法提出、训练和评分来实现。",
+            "这是 AI 自我改进安全能力的重要突破。"
+          ],
+          "analysis": "AI 自主改进自身安全性的能力意味着对齐问题可能不再完全依赖人类监督，这一递归过程可能成为行业新标准。",
+          "related": []
+        },
+        {
+          "id": "re-003",
+          "type": "news",
+          "title": "华盛顿州立大学用 AI 搜索1亿种可能性，找到更便宜的 NASA 火箭合金3D打印方案",
+          "importance": 3,
+          "published_at": "2026-08-27T08:00:00+08:00",
+          "source": {
+            "name": "ScienceDaily",
+            "url": "http://sciencedaily.com/releases/2026/08/260827010504.htm"
+          },
+          "image": null,
+          "tags": ["AI研究", "3D打印", "NASA", "材料科学", "优化"],
+          "summary": "华盛顿州立大学研究人员用 AI 搜索超过1亿种可能的3D打印参数配置，仅通过40次实验就找到了在仅500瓦功率下成功打印 NASA 火箭合金 GRCop-42 的方案。",
+          "details": [
+            "AI 系统搜索了超过1亿种可能的3D打印参数配置。",
+            "仅通过40次实际实验就确定了6种成功配置。",
+            "其中一种方案在仅500瓦功率下成功，创历史新低。",
+            "GRCop-42 是广泛用于航空航天的高性能合金。",
+            "该 AI 策略可推广到其他涉及巨大搜索空间的科学问题。"
+          ],
+          "analysis": "AI 在材料科学优化中的应用展示了机器学习在缩小实验空间方面的巨大价值，可显著降低研发成本和时间。",
+          "related": []
+        }
+      ]
+    },
+    {
+      "id": "space_robotics",
+      "items": [
+        {
+          "id": "sr-001",
+          "type": "news",
+          "title": "NASA Roman 空间望远镜成功发射，搭载 SpaceX Falcon Heavy 飞向深空",
+          "importance": 5,
+          "published_at": "2026-08-30T19:26:00+08:00",
+          "source": {
+            "name": "Reuters / NASA",
+            "url": "https://www.reuters.com/science/nasa-launches-powerful-new-roman-space-telescope-florida-2026-08-30/"
+          },
+          "image": null,
+          "tags": ["NASA", "Roman望远镜", "SpaceX", "Falcon Heavy", "航天"],
+          "summary": "NASA 价值43亿美元的 Nancy Grace Roman 空间望远镜于8月30日由 SpaceX Falcon Heavy 火箭成功发射，将用约100天飞往日地L2拉格朗日点，开启探索暗物质和暗能量的新时代。",
+          "details": [
+            "Roman 望远镜于美东时间8月30日上午7:26从肯尼迪航天中心成功发射。",
+            "Falcon Heavy 的两个侧助推器成功着陆回收，中央助推器被消耗。",
+            "望远镜将在约100天后抵达日地L2拉格朗日点，距地球150万公里。",
+            "配备300兆像素广域相机，视场是哈勃的100倍、韦伯的50倍。",
+            "将研究暗能量本质、暗物质以及发现数千颗系外行星。",
+            "这是 NASA 首次以女性命名的空间望远镜，提前近一年且在预算内发射。",
+            "NASA 局长 Jared Isaacman 在新闻发布会上接到特朗普总统的祝贺电话。"
+          ],
+          "analysis": "Roman 望远镜的成功发射标志着 NASA 深空观测进入新时代，其超广视场将彻底改变天文学家研究宇宙大尺度结构的方式。",
+          "related": []
+        },
+        {
+          "id": "sr-002",
+          "type": "news",
+          "title": "NVIDIA Jetson Orin Nano 2 发布：78 TOPS 推理性能，机器人应用入门级方案",
+          "importance": 3,
+          "published_at": "2026-08-28T10:00:00+08:00",
+          "source": {
+            "name": "NVIDIA",
+            "url": "https://www.nvidia.com/en-us/jetson/"
+          },
+          "image": null,
+          "tags": ["NVIDIA", "Jetson", "机器人", "边缘AI", "嵌入式"],
+          "summary": "NVIDIA 发布 Jetson Orin Nano 2 入门级边缘 AI 计算模块，提供78 TOPS 推理性能，较前代翻倍，功耗降低40%，面向机器人和无人机应用。",
+          "details": [
+            "Jetson Orin Nano 2 提供78 TOPS AI 推理性能，是前代产品的两倍。",
+            "功耗降低40%，在性能和能效之间实现了更好的平衡。",
+            "定位为机器人、配送无人机、巡检无人机和视觉 AI 的入门级方案。",
+            "NVIDIA 持续扩展边缘 AI 产品线，覆盖从数据中心到终端设备的完整生态。"
+          ],
+          "analysis": "Jetson Orin Nano 2 大幅降低了机器人和自动化设备的 AI 部署门槛，将加速具身智能的规模化落地。",
+          "related": []
+        },
+        {
+          "id": "sr-003",
+          "type": "news",
+          "title": "Anthropic 发布模型硬件标准 MHS 研究预览：AI Agent 可安全操控物理设备",
+          "importance": 4,
+          "published_at": "2026-08-27T08:00:00+08:00",
+          "source": {
+            "name": "Anthropic / CNBC",
+            "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+          },
+          "image": null,
+          "tags": ["Anthropic", "MHS", "AI Agent", "机器人", "实验室自动化"],
+          "summary": "Anthropic 发布模型硬件标准（MHS）研究预览，让 AI Agent 能安全地操控显微镜、液体处理器和机械臂等物理设备，将集成时间从数周缩短至数小时。",
+          "details": [
+            "MHS 是一个开放规范，让 AI Agent 通过标准读写驱动发现并操作物理设备。",
+            "与 MCP 的理念类似，但面向物理仪器而非软件工具。",
+            "早期合作伙伴包括 Genentech、HHMI Janelia 和 QuEra。",
+            "QuEra 利用 MHS 将量子计算机激光稳定率从58%提升至99.3%。",
+            "10家硬件和软件供应商已开始集成 MHS 支持。",
+            "目前为研究预览阶段，尚未开源。"
+          ],
+          "analysis": "MHS 标志着 AI Agent 从软件世界向物理世界的跨越，可能成为操控实验室设备和机器人的通用协议层。",
+          "related": []
+        }
+      ]
+    }
+  ]
+}

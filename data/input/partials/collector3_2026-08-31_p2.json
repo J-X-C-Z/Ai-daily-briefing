@@ -1,0 +1,194 @@
+{
+  "bot": "collector3",
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T15:55:00+08:00",
+  "note": "第二批：中国科技、开源与开发者栏目",
+  "categories": [
+    {
+      "id": "china_tech",
+      "items": [
+        {
+          "id": "china_tech-001",
+          "type": "news",
+          "title": "广东省首个词元经济专项金融产品'词元贷'正式发布",
+          "importance": 4,
+          "published_at": "2026-08-31T10:46:00+08:00",
+          "source": {
+            "name": "36氪",
+            "url": "https://36kr.com/newsflashes/3962818222652809"
+          },
+          "image": null,
+          "tags": ["AI", "金融科技", "词元", "广东", "企业融资"],
+          "summary": "广东省首个词元经济专项金融产品'词元贷'在广州市海珠区正式发布，中国银行、中信银行、广州银行3家银行参与布局，旨在纾解AI企业融资困境。",
+          "details": [
+            "'词元贷'是广东省首个词元经济专项金融产品",
+            "中国银行、中信银行、广州银行3家银行参与布局",
+            "中国银行率先落地首笔授信",
+            "产品旨在解决AI企业'轻资产、弱报表、散流水'的融资难题"
+          ],
+          "analysis": "词元贷的推出反映了中国在AI产业金融支持方面的创新尝试，有望缓解AI企业的现金流压力。",
+          "related": ["http://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260831_3180064.shtml"]
+        },
+        {
+          "id": "china_tech-002",
+          "type": "news",
+          "title": "鸿蒙智行发布共光路舱内激光雷达，首创'一镜双模'架构",
+          "importance": 3,
+          "published_at": "2026-08-31T10:37:00+08:00",
+          "source": {
+            "name": "36氪",
+            "url": "https://36kr.com/newsflashes/3962811338292357"
+          },
+          "image": null,
+          "tags": ["鸿蒙智行", "激光雷达", "智能驾驶", "华为", "传感器"],
+          "summary": "鸿蒙智行正式发布共光路舱内激光雷达，首创'一镜双模'共光路架构，将激光雷达与摄像头合二为一，实现3D点云信息与2D图像信息的融合同步。",
+          "details": [
+            "首创'一镜双模'共光路架构",
+            "将激光雷达与摄像头合二为一",
+            "实现3D点云信息与2D图像信息的融合同步",
+            "可提升智能驾驶的感知精度"
+          ],
+          "analysis": "鸿蒙智行的这一创新展示了中国在智能驾驶传感器领域的技术进步，有望推动自动驾驶技术的发展。",
+          "related": ["https://weibo.com/3032210184/RfMmbu90z"]
+        },
+        {
+          "id": "china_tech-003",
+          "type": "news",
+          "title": "塞尔维亚首座机器人工厂投产，由中国和塞尔维亚联合建设",
+          "importance": 3,
+          "published_at": "2026-08-30T15:00:00+08:00",
+          "source": {
+            "name": "Facebook/环球时报",
+            "url": "https://www.facebook.com/globaltimesnews/posts/serbias-first-robot-factory-began-production-in-sabac-on-saturday-jointly-built-/1619976906841177/"
+          },
+          "image": null,
+          "tags": ["机器人", "塞尔维亚", "中国制造", "智能制造", "国际合作"],
+          "summary": "塞尔维亚首座机器人工厂在萨巴奇投产，该工厂由中国和塞尔维亚联合建设，标志着中国智能制造技术的海外扩张。",
+          "details": [
+            "塞尔维亚首座机器人工厂在萨巴奇投产",
+            "工厂由中国和塞尔维亚联合建设",
+            "标志着中国智能制造技术的海外扩张",
+            "反映了'一带一路'倡议在高科技领域的影响"
+          ],
+          "analysis": "这座工厂的投产展示了中国智能制造技术的国际竞争力，以及中国与东欧国家在高科技领域的合作深化。",
+          "related": []
+        },
+        {
+          "id": "china_tech-004",
+          "type": "news",
+          "title": "国投智能安保机器人业务处于试点验证阶段，正构建'平台+运营'闭环",
+          "importance": 3,
+          "published_at": "2026-08-31T10:00:00+08:00",
+          "source": {
+            "name": "36氪",
+            "url": "https://36kr.com/newsflashes/3962776001739912"
+          },
+          "image": null,
+          "tags": ["机器人", "安保", "AI", "国投智能", "商业模式"],
+          "summary": "国投智能在互动平台表示，公司安保机器人业务目前处于试点验证阶段，正积极构建'平台+运营'业务闭环，探索'租赁+服务'的RaaS商业模式。",
+          "details": [
+            "国投智能安保机器人业务处于试点验证阶段",
+            "正积极构建'平台+运营'业务闭环",
+            "探索'租赁+服务'的RaaS商业模式",
+            "依托'元枢'大脑AI能力以及公共安全场景积淀"
+          ],
+          "analysis": "国投智能的安保机器人业务展示了中国企业在AI机器人领域的商业探索，RaaS模式有望推动机器人服务的普及。",
+          "related": []
+        }
+      ]
+    },
+    {
+      "id": "open_source",
+      "items": [
+        {
+          "id": "open_source-001",
+          "type": "news",
+          "title": "OpenMAIC：开源多智能体交互式课堂，一键获得沉浸式学习体验",
+          "importance": 4,
+          "published_at": "2026-08-31T10:00:00+08:00",
+          "source": {
+            "name": "GitHub",
+            "url": "https://github.com/THU-MAIC/OpenMAIC"
+          },
+          "image": null,
+          "tags": ["开源", "AI", "多智能体", "教育", "GitHub"],
+          "summary": "清华大学MAIC团队发布OpenMAIC（开源多智能体交互式课堂），用户只需一键即可获得沉浸式多智能体学习体验，今日在GitHub上获得1370颗星。",
+          "details": [
+            "OpenMAIC是开源的多智能体交互式课堂系统",
+            "用户只需一键即可获得沉浸式学习体验",
+            "今日在GitHub上获得1370颗星",
+            "由清华大学MAIC团队开发"
+          ],
+          "analysis": "OpenMAIC的发布展示了中国高校在AI教育领域的创新成果，有望推动AI教育工具的普及。",
+          "related": []
+        },
+        {
+          "id": "open_source-002",
+          "type": "news",
+          "title": "Crawl4AI：开源的LLM友好型网页爬虫和抓取工具，GitHub星标超8万",
+          "importance": 3,
+          "published_at": "2026-08-31T10:00:00+08:00",
+          "source": {
+            "name": "GitHub",
+            "url": "https://github.com/unclecode/crawl4ai"
+          },
+          "image": null,
+          "tags": ["开源", "爬虫", "LLM", "开发者工具", "Python"],
+          "summary": "Crawl4AI是一个开源的LLM友好型网页爬虫和抓取工具，在GitHub上获得80,300颗星，今日新增221颗星，专为LLM数据准备而设计。",
+          "details": [
+            "Crawl4AI是开源的LLM友好型网页爬虫工具",
+            "在GitHub上获得80,300颗星",
+            "今日新增221颗星",
+            "专为LLM数据准备而设计"
+          ],
+          "analysis": "Crawl4AI的流行反映了开发者对LLM数据准备工具的需求，为AI应用开发提供了重要的数据获取支持。",
+          "related": []
+        },
+        {
+          "id": "open_source-003",
+          "type": "news",
+          "title": "开源供应链攻击检测工具Packj发布",
+          "importance": 3,
+          "published_at": "2026-08-31T14:47:00+08:00",
+          "source": {
+            "name": "GitHub",
+            "url": "https://github.com/ossillate-inc/packj"
+          },
+          "image": null,
+          "tags": ["开源", "安全", "供应链攻击", "开发者工具", "GitHub"],
+          "summary": "开源软件供应链安全工具Packj发布，帮助开发者检测和防范软件供应链攻击，提升开源项目的使用安全性。",
+          "details": [
+            "Packj是开源的软件供应链安全检测工具",
+            "帮助开发者检测和防范软件供应链攻击",
+            "提升开源项目的使用安全性",
+            "由Ossillate Inc.开发"
+          ],
+          "analysis": "随着软件供应链攻击事件的增加，Packj这类安全检测工具的重要性日益凸显，有助于提升开源生态的安全性。",
+          "related": []
+        },
+        {
+          "id": "open_source-004",
+          "type": "news",
+          "title": "Kosha：开源的Rust语言turbopuffer替代方案",
+          "importance": 3,
+          "published_at": "2026-08-31T15:28:00+08:00",
+          "source": {
+            "name": "GitHub",
+            "url": "https://github.com/decover-tech/kosha"
+          },
+          "image": null,
+          "tags": ["开源", "Rust", "向量数据库", "开发者工具", "GitHub"],
+          "summary": "开源项目Kosha发布，这是一个用Rust语言开发的turbopuffer替代方案，为开发者提供高性能的向量存储解决方案。",
+          "details": [
+            "Kosha是开源的turbopuffer替代方案",
+            "使用Rust语言开发，具有高性能特性",
+            "为开发者提供向量存储解决方案",
+            "由Decover Tech开发"
+          ],
+          "analysis": "Kosha的发布丰富了Rust语言的AI基础设施生态，为需要高性能向量存储的开发者提供了新的选择。",
+          "related": []
+        }
+      ]
+    }
+  ]
+}

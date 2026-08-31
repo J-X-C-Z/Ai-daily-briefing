@@ -1,0 +1,23 @@
+# 私密配置
+.env
+.env.local
+
+# 依赖
+node_modules/
+package-lock.json
+
+# 生成物（可选保留；若要全部纳入版本控制请删除以下行）
+output/html/*.html
+output/preview/*.html
+data/processed/*.json
+data/archive/*.json
+logs/*.json
+
+# 分片是中间产物（可选；保留可做审计，建议提交）
+# data/input/partials/*.json
+
+# 系统/编辑器
+.DS_Store
+*.log
+.idea/
+.vscode/

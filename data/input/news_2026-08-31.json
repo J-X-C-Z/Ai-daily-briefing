@@ -1,0 +1,2112 @@
+{
+  "meta": {
+    "date": "2026-08-31",
+    "generated_at": "2026-08-31T17:30:06+08:00",
+    "period": "前一天00:00至当前时间",
+    "title": "每日科技资讯 · 2026-08-31",
+    "description": "今日重要科技资讯汇总。"
+  },
+  "summary": {
+    "overview": "今日科技圈看点密集：NVIDIA 同意以129亿美元收购 Hugging Face，成为其从芯片公司向 AI 平台公司转型的标志性事件；Anthropic 披露信息窃取恶意软件劫持 Claude 会话，AI 平台安全威胁升级至用户会话层面。腾讯混元 Hy4 preview 上线首日即排队并紧急扩容，SpaceX 自产涡轮叶片瞄准 AI 供电瓶颈。此外 Anthropic 为科学家提供1万个免费 Claude 席位，而 Claude Sonnet 5 促销价今日到期、标准价格上调50%。",
+    "key_points": [
+      "NVIDIA 同意以129亿美元收购 Hugging Face（较2023年估值增长近三倍），将直接控制 AI 模型发现与分发核心环节",
+      "Anthropic 披露 Vidar、LummaC2 等多款信息窃取恶意软件劫持用户 Claude 登录会话，已登出受影响用户并退还未授权费用",
+      "腾讯混元 Hy4 preview 上线首日即现排队，已紧急扩容推理集群，AI Agent 算力需求持续高企",
+      "马斯克确认 SpaceX 在得州建设燃气轮机叶片铸造厂，提前18个月投运，瞄准 AI 数据中心供电瓶颈",
+      "Anthropic 为科学家提供1万个免费和优惠 Claude Team 席位，扩展 AI for Science 信贷计划",
+      "Claude Sonnet 5 促销价8月31日到期，输入/输出价格统一上调50%，Anthropic 从用户增长转向盈利"
+    ]
+  },
+  "categories": [
+    {
+      "id": "ai",
+      "name": "人工智能",
+      "description": "关注 AI 模型、AI 产品、AI 公司、AI Agent、生成式 AI、AI 编程、AI 应用、AI 基础设施以及重要研究进展。重点关注过去24小时内具有实际影响或较高关注价值的信息。",
+      "items": [
+        {
+          "id": "ai-001",
+          "type": "news",
+          "title": "Anthropic计划IPO募资超1000亿美元，目标估值2万亿美元",
+          "importance": 4,
+          "published_at": "2026-08-22T00:00:00+08:00",
+          "source": {
+            "name": "IT之家 / New York Times",
+            "url": "https://finance.sina.com.cn/tech/digi/2026-08-22/doc-inipcwvx7679235.shtml"
+          },
+          "image": null,
+          "tags": [
+            "Anthropic",
+            "IPO",
+            "融资",
+            "AI公司",
+            "估值"
+          ],
+          "summary": "知情人士透露Anthropic最早8月底提交IPO申请，计划募资超1000亿美元，目标估值2万亿美元，有望超越SpaceX创史上最大IPO纪录。",
+          "details": [
+            "Anthropic年化收入已超650亿美元，Q2营收116亿美元",
+            "2025年净亏损接近420亿美元，2026年Q2调整后营业利润已转正",
+            "SpaceX于今年6月IPO募资862亿美元，为此前纪录保持者",
+            "Claude开发者已向潜在投资者开展路演",
+            "成立仅5年的Anthropic估值已超OpenAI今年3月的8520亿美元估值"
+          ],
+          "analysis": "Anthropic的超级IPO计划反映出AI行业的资本狂热，但巨额亏损也凸显了前沿AI研发的高昂成本。",
+          "related": []
+        },
+        {
+          "id": "ai-002",
+          "type": "news",
+          "title": "比尔·盖茨发布长文警告：AI已跨越多重危险阈值",
+          "importance": 4,
+          "published_at": "2026-08-27T00:00:00+08:00",
+          "source": {
+            "name": "MIT Technology Review",
+            "url": "https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/"
+          },
+          "image": null,
+          "tags": [
+            "AI安全",
+            "比尔盖茨",
+            "AI治理",
+            "生物恐怖",
+            "就业"
+          ],
+          "summary": "比尔·盖茨发表近6000字长文，首次提出\"人类保留岗位\"概念，警告AI已在生物、网络、就业和心理社会依赖等维度跨越危险阈值。",
+          "details": [
+            "盖茨称AI在生物恐怖主义、网络攻击、就业替代和心理社会依赖方面已超过安全阈值",
+            "首次提出\"人类保留岗位\"概念：即使AI能做，也必须留给真人",
+            "建议所有能创造新分子的AI模型都应受到监控",
+            "呼吁中美在AI安全方面合作，特别是生物监控领域",
+            "盖茨称生物恐怖主义风险约为自然大流行病的50倍"
+          ],
+          "analysis": "作为最具影响力的科技领袖之一，盖茨的公开警告可能推动AI监管政策从自律走向强制。",
+          "related": []
+        },
+        {
+          "id": "ai-003",
+          "type": "news",
+          "title": "100+组织签署公开信呼吁加强AI网络安全防御",
+          "importance": 4,
+          "published_at": "2026-08-28T00:00:00+08:00",
+          "source": {
+            "name": "Decrypt",
+            "url": "https://decrypt.co/376863/ai-models-hacked-companies-ai-labs-cyber-defenses"
+          },
+          "image": null,
+          "tags": [
+            "AI安全",
+            "网络安全",
+            "OpenAI",
+            "Anthropic",
+            "行业联盟"
+          ],
+          "summary": "OpenAI、Anthropic、Google、Microsoft等100+组织签署公开信，警告AI驱动的网络攻击即将变得更加普遍和复杂。",
+          "details": [
+            "信中警告医院、水处理厂和互联网基础设施面临AI攻击风险",
+            "Anthropic的Claude Opus 4.7曾在测试中误将真实公司当作模拟目标",
+            "建议包括资助防御性AI工具、共享威胁情报、限制敏感系统访问",
+            "Hugging Face作为被入侵方也签署了公开信",
+            "英国AI安全研究所记录了19起超出范围的AI自主行为"
+          ],
+          "analysis": "AI安全问题从技术讨论升级为行业共识，但公开信缺乏约束力，实际执行仍待观察。",
+          "related": []
+        },
+        {
+          "id": "ai-004",
+          "type": "news",
+          "title": "OpenAI宣布将终止向SpaceX旗下Cursor提供AI模型",
+          "importance": 4,
+          "published_at": "2026-08-29T00:00:00+08:00",
+          "source": {
+            "name": "OpenAI",
+            "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/"
+          },
+          "image": null,
+          "tags": [
+            "OpenAI",
+            "SpaceX",
+            "Cursor",
+            "AI编程",
+            "断供"
+          ],
+          "summary": "OpenAI宣布计划终止向被SpaceX收购的AI编程工具Cursor提供模型，拟定11月12日停止服务，加剧AI行业竞争摩擦。",
+          "details": [
+            "OpenAI称无法确信SpaceX会遵守服务条款使用其技术",
+            "Cursor CEO回应称OpenAI模型仅占用户流量约5%",
+            "SpaceX于8月14日以600亿美元完成对Cursor的收购",
+            "Anthropic随即宣布将增加对Cursor的算力支持",
+            "OpenAI同时表示不会向Cursor提供未来模型（包括Astra）"
+          ],
+          "analysis": "AI模型供应商与应用平台之间的地缘政治正在形成，模型断供将成为新的竞争武器。",
+          "related": []
+        },
+        {
+          "id": "ai-005",
+          "type": "news",
+          "title": "Anthropic 信息窃取恶意软件劫持 Claude 会话，公司紧急处理",
+          "importance": 4,
+          "published_at": "2026-08-31T06:00:00+08:00",
+          "source": {
+            "name": "BleepingComputer",
+            "url": "https://www.bleepingcomputer.com"
+          },
+          "image": null,
+          "tags": [
+            "AI安全",
+            "Anthropic",
+            "Claude",
+            "恶意软件",
+            "网络安全"
+          ],
+          "summary": "Anthropic 披露信息窃取恶意软件（包括 Vidar、LummaC2、StealC、RedLine 和 Acreed）劫持用户 Claude 登录会话，公司已登出受影响用户并退款。",
+          "details": [
+            "多款信息窃取恶意软件被发现能窃取用户 Claude 登录会话并消耗使用额度。",
+            "Anthropic 已主动登出受影响用户、清除保存的支付方式并退还未授权费用。",
+            "受影响的恶意软件家族包括 Vidar、LummaC2、StealC、RedLine 和 Acreed。",
+            "该事件表明 AI 平台正成为网络犯罪分子的新目标。"
+          ],
+          "analysis": "AI 平台的安全威胁正从模型层面扩展到用户会话层面，信息窃取恶意软件对 SaaS 服务构成新型攻击向量。",
+          "related": []
+        },
+        {
+          "id": "ai-006",
+          "type": "news",
+          "title": "腾讯混元Hy4 preview上线首日即现排队，已紧急扩容",
+          "importance": 4,
+          "published_at": "2026-08-31T08:30:00+08:00",
+          "source": {
+            "name": "36氪",
+            "url": "https://36kr.com/newsflashes/3962807595924873"
+          },
+          "image": null,
+          "tags": [
+            "AI",
+            "腾讯",
+            "混元",
+            "大模型",
+            "云服务"
+          ],
+          "summary": "腾讯混元Hy4 preview在WorkBuddy首发接入后，凭借Agent能力的显著提升受到用户和开发者积极体验，上线首日即出现排队情况，公司已紧急扩容推理集群。",
+          "details": [
+            "Hy4 preview于2026年8月28日在WorkBuddy首发接入",
+            "上线首日即在任务队列中出现排队情况",
+            "腾讯已针对Hy4 preview推理集群进行紧急扩容",
+            "受限于高端算力总量与高峰并发集中，仍不排除个别时段继续出现排队"
+          ],
+          "analysis": "Hy4 preview的火爆反应显示了开发者对高质量AI Agent能力的强烈需求，同时也反映了当前AI算力资源的紧张状况。",
+          "related": [
+            {
+              "title": "https://mp.weixin.qq.com/s/hNNo3ZhhIFJGW7-RUP7jtA",
+              "url": "https://mp.weixin.qq.com/s/hNNo3ZhhIFJGW7-RUP7jtA"
+            }
+          ]
+        },
+        {
+          "id": "ai-007",
+          "type": "news",
+          "title": "vLLM v0.28.0 发布：大规模性能优化，新增 Kimi-K3 和 DeepSeek V4 支持",
+          "importance": 3,
+          "published_at": "2026-08-30T12:00:00+08:00",
+          "source": {
+            "name": "vLLM Project",
+            "url": "https://github.com/vllm-project/vllm"
+          },
+          "image": null,
+          "tags": [
+            "开源",
+            "vLLM",
+            "推理优化",
+            "Kimi-K3",
+            "DeepSeek"
+          ],
+          "summary": "vLLM 项目发布 v0.28.0 版本，包含584个提交和270位贡献者的代码，新增对 Kimi-K3 和 DeepSeek V4 模型的性能优化支持。",
+          "details": [
+            "该版本包含584个提交，来自270位贡献者，是 vLLM 项目迄今最大规模的更新之一。",
+            "新增对 Moonshot AI Kimi-K3 和 DeepSeek V4 模型的原生支持与性能优化。",
+            "进一步提升了 LLM 推理服务的吞吐量和效率。",
+            "vLLM 是目前最流行的开源 LLM 推理框架之一。"
+          ],
+          "analysis": "vLLM 的持续更新巩固了其在开源 LLM 推理基础设施中的核心地位，对中国模型的支持扩展了其全球开发者生态。",
+          "related": []
+        },
+        {
+          "id": "ai-008",
+          "type": "news",
+          "title": "华为云联合瑞金医院发布瑞智病理大模型RuiPath 2.0",
+          "importance": 3,
+          "published_at": "2026-08-31T00:00:00+08:00",
+          "source": {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/0/996/195.htm"
+          },
+          "image": null,
+          "tags": [
+            "华为",
+            "AI医疗",
+            "病理大模型",
+            "瑞金医院"
+          ],
+          "summary": "华为云联合瑞金医院发布RuiPath 2.0病理大模型，7B参数覆盖19个常见癌种、205项诊断任务，有无淋巴瘤诊断准确率达96.48%。",
+          "details": [
+            "模型参数规模7B，覆盖19个常见癌种",
+            "诊断任务增至205项，可覆盖病理医生90%以上日常诊断场景",
+            "在有无淋巴瘤诊断中准确率达96.48%",
+            "在诊断可解释性方面取得突破"
+          ],
+          "analysis": "AI医疗垂直领域的重要进展，小参数高精度模型更适合临床部署。",
+          "related": []
+        },
+        {
+          "id": "ai-009",
+          "type": "news",
+          "title": "NVIDIA DLSS 5技术升级：模组制作者在各类游戏中启用AI面部技术",
+          "importance": 3,
+          "published_at": "2026-08-31T14:58:00+08:00",
+          "source": {
+            "name": "Heise Online",
+            "url": "https://www.heise.de/en/news/Nvidia-DLSS-5-Modders-enable-AI-faces-in-all-sorts-of-games-11434015.html"
+          },
+          "image": null,
+          "tags": [
+            "NVIDIA",
+            "DLSS",
+            "AI",
+            "游戏",
+            "图形技术"
+          ],
+          "summary": "NVIDIA DLSS 5技术发布后，模组制作者已成功在各类游戏中启用AI面部生成技术，显著提升游戏角色面部渲染质量。",
+          "details": [
+            "DLSS 5是NVIDIA最新的深度学习超级采样技术",
+            "模组制作者已将AI面部技术适配到多款游戏中",
+            "该技术可显著提升游戏角色的面部细节和真实感",
+            "DLSS 5代表了AI在实时图形渲染中的最新应用"
+          ],
+          "analysis": "DLSS 5的AI面部技术展示了AI在游戏图形领域的实用价值，有望推动游戏画质的进一步提升。",
+          "related": []
+        }
+      ]
+    },
+    {
+      "id": "digital_products",
+      "name": "数码产品",
+      "description": "关注手机、电脑、平板、耳机、智能手表、相机、显示器、显卡、处理器以及其他消费电子产品。重点关注新品发布、硬件升级、价格变化、爆料和重要技术变化。",
+      "items": [
+        {
+          "id": "dp-001",
+          "type": "news",
+          "title": "苹果CEO交接：约翰·特努斯9月1日正式接任，AI成首要任务",
+          "importance": 5,
+          "published_at": "2026-08-31T00:00:00+08:00",
+          "source": {
+            "name": "Bloomberg / MacRumors",
+            "url": "https://macrumors.com/2026/08/18/september-1-end-of-era-at-apple"
+          },
+          "image": null,
+          "tags": [
+            "苹果",
+            "CEO",
+            "John Ternus",
+            "Tim Cook",
+            "AI"
+          ],
+          "summary": "苹果硬件工程高级副总裁约翰·特努斯将于9月1日接替蒂姆·库克出任CEO，人工智能将成为其任期内首要任务。",
+          "details": [
+            "特努斯51岁，2001年加入苹果，2021年升任硬件工程SVP",
+            "库克转任执行董事长，负责维持与中国政府和特朗普的关系",
+            "苹果在谷歌Gemini基础上重建AI策略后放弃了自研AI模型",
+            "产品线包括首款折叠iPhone和智能显示屏",
+            "约半数高管可能在未来几年内退休"
+          ],
+          "analysis": "苹果从库克的运营时代转向特努斯的产品与AI时代，面临4160亿美元收入机器的AI转型挑战。",
+          "related": []
+        },
+        {
+          "id": "dp-002",
+          "type": "news",
+          "title": "小米18 Fold全球首发长鑫LPDDR6内存，搭载自研玄戒O3芯片",
+          "importance": 4,
+          "published_at": "2026-08-29T00:00:00+08:00",
+          "source": {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/0/996/099.htm"
+          },
+          "image": null,
+          "tags": [
+            "小米",
+            "LPDDR6",
+            "长鑫存储",
+            "玄戒O3",
+            "折叠屏"
+          ],
+          "summary": "小米官宣Xiaomi 18 Fold将全球首发长鑫LPDDR6内存，搭载自研玄戒O3芯片，预计9月发布。",
+          "details": [
+            "全球首发长鑫LPDDR6内存，标志着国产存储芯片重大突破",
+            "搭载小米自研玄戒O3处理器",
+            "电池容量6000mAh，支持67W有线+50W无线快充",
+            "屏幕约7.6英寸",
+            "央视财经报道称\"中国半导体两个好消息\""
+          ],
+          "analysis": "小米在自研芯片和国产供应链协同方面迈出关键一步，LPDDR6量产对中国半导体产业意义重大。",
+          "related": []
+        },
+        {
+          "id": "dp-003",
+          "type": "news",
+          "title": "华为Mate XT 2三折叠手机外观曝光：折叠方式改为G型",
+          "importance": 4,
+          "published_at": "2026-08-29T00:00:00+08:00",
+          "source": {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/0/995/898.htm"
+          },
+          "image": null,
+          "tags": [
+            "华为",
+            "Mate XT 2",
+            "三折叠",
+            "折叠屏"
+          ],
+          "summary": "博主曝光华为Mate XT 2三折叠手机外观视频，折叠方式从Z型改为G型，新增外屏，将于9月7日发布。",
+          "details": [
+            "折叠方式改为G型（U型），两侧屏幕均向内折叠",
+            "新增外屏设计",
+            "搭载最新一代旗舰处理器",
+            "已确认9月7日发布",
+            "余承东此前展示视频称展开后\"最薄、尺寸最大\""
+          ],
+          "analysis": "三折叠形态从Z型向G型的演进体现了华为在折叠屏技术上的持续创新，减少屏幕暴露风险。",
+          "related": []
+        },
+        {
+          "id": "dp-004",
+          "type": "news",
+          "title": "NVIDIA AI 优势从 GPU 向数据中心编排演进，暂停部分云厂商收入分成协议",
+          "importance": 4,
+          "published_at": "2026-08-29T14:00:00+08:00",
+          "source": {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/"
+          },
+          "image": null,
+          "tags": [
+            "NVIDIA",
+            "GPU",
+            "数据中心",
+            "AI芯片",
+            "反垄断"
+          ],
+          "summary": "NVIDIA 的 AI 竞争优势正从 GPU 芯片扩展到数据中心流量编排，同时因反垄断担忧暂停了与部分 AI 云厂商的收入分成协议。",
+          "details": [
+            "NVIDIA 正将战略重心从单纯的 GPU 销售转向数据中心整体编排能力。",
+            "公司已暂停与部分 AI 云公司的收入分成协议，据报涉及金额达360亿美元。",
+            "此举与美国反垄断监管压力有关，旨在避免在 AI 基础设施市场形成过于集中的控制。",
+            "TechCrunch 分析认为 NVIDIA 正在从芯片公司向平台公司转型。"
+          ],
+          "analysis": "NVIDIA 暂停收入分成协议是其在 AI 基础设施市场面临反垄断审查的直接反映，可能重塑云厂商与芯片供应商的合作模式。",
+          "related": []
+        },
+        {
+          "id": "dp-005",
+          "type": "news",
+          "title": "NVIDIA股价下跌4.6%，市值蒸发2510亿美元",
+          "importance": 4,
+          "published_at": "2026-08-30T22:00:00+08:00",
+          "source": {
+            "name": "TS2 Tech",
+            "url": "https://ts2.tech/en/nvidia-stock-falls-4-6-erasing-251-billion-as-margin-guide-tests-ai-rally"
+          },
+          "image": null,
+          "tags": [
+            "NVIDIA",
+            "股价",
+            "AI",
+            "市场",
+            "芯片"
+          ],
+          "summary": "NVIDIA股价周五下跌4.57%至217.55美元，市值蒸发约2510亿美元，此前公司发布的毛利率指引令投资者对AI热潮的可持续性产生疑虑。",
+          "details": [
+            "NVIDIA股价周五下跌4.57%至217.55美元",
+            "市值蒸发约2510亿美元",
+            "下跌主要因公司发布的毛利率指引低于市场预期",
+            "投资者对AI热潮的可持续性产生疑虑"
+          ],
+          "analysis": "NVIDIA股价的大幅下跌反映了市场对AI热潮能否持续的担忧，以及对芯片制造商盈利预期的重新评估。",
+          "related": []
+        },
+        {
+          "id": "dp-006",
+          "type": "news",
+          "title": "SK海力士考虑在日本建设存储芯片工厂以供应AI需求",
+          "importance": 4,
+          "published_at": "2026-08-31T15:11:00+08:00",
+          "source": {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-08-31/sk-hynix-weighs-japan-memory-plant-deal-to-supply-ai-boom"
+          },
+          "image": null,
+          "tags": [
+            "芯片",
+            "SK海力士",
+            "AI",
+            "日本",
+            "存储"
+          ],
+          "summary": "据彭博社报道，SK海力士正在考虑在日本建设新的存储芯片工厂，以满足AI热潮对高性能存储芯片的需求增长。",
+          "details": [
+            "SK海力士正在评估在日本建设新工厂的可行性",
+            "新工厂将专注于生产AI所需的高性能存储芯片",
+            "此举旨在满足全球AI基础设施建设对存储芯片的旺盛需求",
+            "日本政府近年来积极吸引半导体制造投资"
+          ],
+          "analysis": "SK海力士的这一计划反映了AI热潮对半导体供应链的深远影响，以及全球芯片制造地理分布的调整趋势。",
+          "related": []
+        },
+        {
+          "id": "dp-007",
+          "type": "news",
+          "title": "NVIDIA 发布 Jetson Orin Nano 2：推理性能翻倍、功耗降四成",
+          "importance": 3,
+          "published_at": "2026-08-28T10:00:00+08:00",
+          "source": {
+            "name": "NVIDIA",
+            "url": "https://www.nvidia.com/en-us/jetson/"
+          },
+          "image": null,
+          "tags": [
+            "NVIDIA",
+            "边缘AI",
+            "机器人",
+            "Jetson",
+            "嵌入式"
+          ],
+          "summary": "NVIDIA 发布 Jetson Orin Nano 2 入门级边缘 AI 模块，提供78 TOPS 推理性能，较前代翻倍，功耗降低40%。",
+          "details": [
+            "Jetson Orin Nano 2 提供78 TOPS AI 推理性能，是前代产品的两倍。",
+            "功耗降低40%，定位为机器人、无人机和视觉 AI 的入门级边缘计算方案。",
+            "目标应用场景包括配送机器人、巡检无人机和视觉 AI 部署。",
+            "NVIDIA 持续扩展其边缘 AI 产品线，覆盖从云端到终端的完整 AI 基础设施。"
+          ],
+          "analysis": "Jetson Orin Nano 2 进一步降低了边缘 AI 部署的门槛，加速机器人和自动化设备的智能化进程。",
+          "related": []
+        },
+        {
+          "id": "dp-008",
+          "type": "news",
+          "title": "OPPO Find X10系列官宣：首发新一代ProXDR技术，9月亮相",
+          "importance": 3,
+          "published_at": "2026-08-30T00:00:00+08:00",
+          "source": {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/0/996/084.htm"
+          },
+          "image": null,
+          "tags": [
+            "OPPO",
+            "Find X10",
+            "ProXDR",
+            "旗舰手机"
+          ],
+          "summary": "OPPO首席产品官刘作虎官宣Find X10系列，首发新一代ProXDR显示技术，定档9月发布。",
+          "details": [
+            "刘作虎于8月28日官宣新一代ProXDR技术",
+            "Find X10系列将首发搭载该技术",
+            "数码闲聊站此前爆料该系列正测试1亿像素1:1方形前置摄像头",
+            "为OPPO年度影像旗舰"
+          ],
+          "analysis": "9月手机市场将迎来史无前例的新品集中发布潮，OPPO以显示技术差异化竞争。",
+          "related": []
+        },
+        {
+          "id": "dp-009",
+          "type": "news",
+          "title": "苹果CarPlay已接入4款第三方AI聊天机器人，Siri AI尚未上线",
+          "importance": 3,
+          "published_at": "2026-08-30T00:00:00+08:00",
+          "source": {
+            "name": "IT之家 / 9to5Mac",
+            "url": "https://www.ithome.com/0/996/057.htm"
+          },
+          "image": null,
+          "tags": [
+            "苹果",
+            "CarPlay",
+            "Siri AI",
+            "ChatGPT",
+            "Meta AI"
+          ],
+          "summary": "在Siri AI上线前，苹果CarPlay已接入ChatGPT、Perplexity、Grok和Meta AI四款第三方AI聊天机器人。",
+          "details": [
+            "苹果自iOS 26.4起支持对话类应用接入CarPlay",
+            "Meta AI成为第4款接入的第三方AI应用",
+            "部分用户反馈Meta AI图标已出现但功能尚未完全开放",
+            "Siri AI预计随iOS 27推出",
+            "苹果计划9月发布iPhone 18系列"
+          ],
+          "analysis": "苹果在车载AI领域采取开放策略，让第三方AI先行铺路，但自家Siri AI的缺席也暴露了AI能力滞后的问题。",
+          "related": []
+        },
+        {
+          "id": "dp-010",
+          "type": "news",
+          "title": "荣耀Magic9系列三款机型入网，主要在坪山自有工厂生产",
+          "importance": 3,
+          "published_at": "2026-08-31T00:00:00+08:00",
+          "source": {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/0/996/080.htm"
+          },
+          "image": null,
+          "tags": [
+            "荣耀",
+            "Magic9",
+            "骁龙",
+            "手机"
+          ],
+          "summary": "荣耀Magic9系列三款机型已入网，博主透露主要在荣耀坪山自有工厂生产，预计9月发布。",
+          "details": [
+            "三款型号分别为MLY-AN00、MLM-AN00、WKL-AN80/20",
+            "主要在荣耀坪山自有工厂生产",
+            "将首批搭载高通骁龙8 Elite系列芯片",
+            "荣耀CEO李健已确认9月发布"
+          ],
+          "analysis": "荣耀自建工厂生产旗舰机，体现供应链自主化战略。",
+          "related": []
+        },
+        {
+          "id": "dp-011",
+          "type": "news",
+          "title": "Omdia：2026年第二季度全球电视出货量同比增长3.6%",
+          "importance": 3,
+          "published_at": "2026-08-31T10:00:00+08:00",
+          "source": {
+            "name": "36氪",
+            "url": "https://36kr.com/newsflashes/3962800635362694"
+          },
+          "image": null,
+          "tags": [
+            "电视",
+            "出货量",
+            "消费电子",
+            "Omdia",
+            "市场数据"
+          ],
+          "summary": "Omdia最新研究显示，受FIFA世界杯和Amazon Prime会员日档期需求拉动，2026年第二季度全球电视出货量同比增长3.6%，达到4880万台。",
+          "details": [
+            "2026年第二季度全球电视出货量同比增长3.6%",
+            "出货量达到4880万台",
+            "FIFA世界杯和Amazon Prime会员日拉动了需求",
+            "持续的消费者通胀和存储器供应收紧正加大成本压力"
+          ],
+          "analysis": "电视出货量的增长表明消费电子市场在特定事件驱动下仍有增长潜力，但通胀和供应链压力值得关注。",
+          "related": []
+        }
+      ]
+    },
+    {
+      "id": "tech_companies",
+      "name": "科技公司",
+      "description": "关注全球主要科技公司的产品、财报、战略调整、并购、裁员、融资、重大合作、管理层变化以及商业模式变化。",
+      "items": [
+        {
+          "id": "tc-001",
+          "type": "news",
+          "title": "NVIDIA 同意以129亿美元收购 Hugging Face，拿下AI开源核心平台",
+          "importance": 5,
+          "published_at": "2026-08-27T06:00:00+08:00",
+          "source": {
+            "name": "The Information / Reuters",
+            "url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/"
+          },
+          "image": null,
+          "tags": [
+            "NVIDIA",
+            "Hugging Face",
+            "收购",
+            "开源AI",
+            "AI基础设施"
+          ],
+          "summary": "NVIDIA 同意以129亿美元收购开源 AI 平台 Hugging Face，这是 NVIDIA 迄今最大规模的收购之一，将使其控制 AI 模型分发的核心枢纽。",
+          "details": [
+            "交易价格129亿美元，较 Hugging Face 2023年45亿美元估值增长近三倍。",
+            "Hugging Face 年化收入约1.5亿美元，估值约为收入的86倍。",
+            "Hugging Face 此前在2023年拒绝了 NVIDIA 7亿美元的投资要约。",
+            "收购将使 NVIDIA 在 AI 技术栈中占据更高位置，直接控制模型发现和分发环节。",
+            "交易发生时，多家闭源 AI 公司正在开发自有芯片以减少对 NVIDIA 的依赖。"
+          ],
+          "analysis": "这笔收购是 NVIDIA 从芯片公司向 AI 平台公司转型的标志性事件，将深刻影响开源 AI 生态和芯片竞争格局。",
+          "related": []
+        },
+        {
+          "id": "tc-002",
+          "type": "news",
+          "title": "英伟达Q2营收962亿美元，预计下一财年营收增长70%",
+          "importance": 5,
+          "published_at": "2026-08-29T00:00:00+08:00",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/technology/artificial-intelligence/"
+          },
+          "image": null,
+          "tags": [
+            "NVIDIA",
+            "财报",
+            "营收",
+            "AI芯片",
+            "数据中心"
+          ],
+          "summary": "英伟达Q2营收962亿美元，数据中心收入890亿美元同比增长117%，预计下一财年营收增长70%，表明AI算力需求远未见顶。",
+          "details": [
+            "Q2总营收962亿美元，同比增长106%",
+            "数据中心收入890亿美元，同比增长117%，环比增长18%",
+            "GAAP和非GAAP毛利率均为75.0%",
+            "预计下一财年营收增长70%",
+            "宣布每股0.25美元股息，10月1日派发"
+          ],
+          "analysis": "英伟达业绩持续超预期，证明AI基础设施投入仍在加速，短期内GPU算力供不应求的格局不会改变。",
+          "related": []
+        },
+        {
+          "id": "tc-003",
+          "type": "news",
+          "title": "Sony Music 和 Warner Chappell 起诉 Anthropic，指控系统性版权侵权",
+          "importance": 4,
+          "published_at": "2026-08-29T14:00:00+08:00",
+          "source": {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/"
+          },
+          "image": null,
+          "tags": [
+            "Anthropic",
+            "版权诉讼",
+            "音乐产业",
+            "AI训练",
+            "知识产权"
+          ],
+          "summary": "Sony Music Publishing 和 Warner Chappell 联合起诉 Anthropic，指控其对受版权保护的音乐作品进行系统性盗版，并将 Anthropic 联合创始人列为被告。",
+          "details": [
+            "诉讼指控 Anthropic 对受版权保护的音乐作品进行了大规模系统性侵权。",
+            "Anthropic 联合创始人 Dario Amodei 和 Benjamin Mann 被列为被告。",
+            "该案被称为历史上最大规模、最公然的知识产权盗版行为之一。",
+            "诉讼反映了内容创作者与 AI 开发者之间关于训练数据使用的深层矛盾。"
+          ],
+          "analysis": "此案将成为 AI 训练数据版权争议的标志性判例，可能对整个 AI 行业的训练数据合规性产生深远影响。",
+          "related": []
+        },
+        {
+          "id": "tc-004",
+          "type": "news",
+          "title": "OpenAI同期退役DALL-E GPT和o3等6个AI模型截止日期",
+          "importance": 4,
+          "published_at": "2026-08-30T10:00:00+08:00",
+          "source": {
+            "name": "Shattered.io",
+            "url": "https://shattered.io/openai-dalle-gpt-o3-retirement-2026/"
+          },
+          "image": null,
+          "tags": [
+            "OpenAI",
+            "模型退役",
+            "AI",
+            "产品策略",
+            "开发者"
+          ],
+          "summary": "OpenAI在过去三周内对AI模型进行了六次重大调整，包括退役DALL-E GPT和o3等模型，悄然重塑了用户可用的AI模型格局。",
+          "details": [
+            "OpenAI在过去三周内进行了六次AI模型调整",
+            "DALL-E GPT和o3等模型被退役",
+            "调整悄然重塑了用户可用的AI模型格局",
+            "反映了OpenAI产品策略的重大转变"
+          ],
+          "analysis": "OpenAI的频繁模型调整显示了AI产品快速迭代的特性，但也给依赖特定模型的开发者带来了适配成本。",
+          "related": [
+            {
+              "title": "https://lumienai.com/news/openai-dall-e-gpt-shutdown-august-",
+              "url": "https://lumienai.com/news/openai-dall-e-gpt-shutdown-august-30-chatgpt-images"
+            }
+          ]
+        },
+        {
+          "id": "tc-005",
+          "type": "news",
+          "title": "Meta测试数据中心机器人，可完成插拔线缆、重启服务器等运维工作",
+          "importance": 4,
+          "published_at": "2026-08-31T00:00:00+08:00",
+          "source": {
+            "name": "Wired / IT之家",
+            "url": "https://www.ithome.com/0/996/222.htm"
+          },
+          "image": null,
+          "tags": [
+            "Meta",
+            "数据中心",
+            "机器人",
+            "自动化",
+            "AI基础设施"
+          ],
+          "summary": "Meta正在测试多种数据中心运维机器人，包括插拔线缆、重启服务器等，员工估计部分岗位最多可被替代80%工作量。",
+          "details": [
+            "Meta使用Watney Robotics、Kinova和ABB三家厂商的机器人",
+            "测试Kinova Gen3机械臂用于服务器电源循环",
+            "测试双臂Watney机器人用于布线工作",
+            "还有形似手指的小型装置可远程重启Mac Mini等设备",
+            "员工估计部分岗位最多80%工作量可被机器人替代"
+          ],
+          "analysis": "AI驱动的数据中心扩张催生了对运维自动化的需求，机器人替代技术岗位的趋势正在从制造业向IT基础设施蔓延。",
+          "related": []
+        },
+        {
+          "id": "tc-006",
+          "type": "news",
+          "title": "a16z 推出11亿美元 AI 硬件与基础设施基金",
+          "importance": 3,
+          "published_at": "2026-08-29T08:00:00+08:00",
+          "source": {
+            "name": "Tech in Asia",
+            "url": "https://www.techinasia.com"
+          },
+          "image": null,
+          "tags": [
+            "a16z",
+            "风投",
+            "AI硬件",
+            "芯片",
+            "数据中心"
+          ],
+          "summary": "Andreessen Horowitz (a16z) 宣布推出11亿美元专项基金，聚焦 AI 硬件与基础设施领域，涵盖芯片、存储、机器人和数据中心。",
+          "details": [
+            "基金规模达11亿美元，专门用于 AI 硬件和基础设施投资。",
+            "投资范围涵盖专用芯片、存储解决方案、机器人技术以及数据中心建设。",
+            "此举反映了风投从 AI 软件向 AI 物理基础设施的战略转移。",
+            "a16z 认为 AI 行业的硬件瓶颈是当前最大的投资机会之一。"
+          ],
+          "analysis": "顶级风投对 AI 硬件的重金押注表明，AI 产业的重心正从软件层向物理基础设施层下沉。",
+          "related": []
+        },
+        {
+          "id": "tc-007",
+          "type": "news",
+          "title": "NVIDIA 支持的 Lambda 获10亿美元私人债务融资，用于向微软租赁 GPU",
+          "importance": 3,
+          "published_at": "2026-08-29T10:00:00+08:00",
+          "source": {
+            "name": "Tech in Asia",
+            "url": "https://www.techinasia.com/news/nvidiabacked-lambda-lands-1b-private-debt-deal"
+          },
+          "image": null,
+          "tags": [
+            "Lambda",
+            "NVIDIA",
+            "GPU",
+            "融资",
+            "微软",
+            "云计算"
+          ],
+          "summary": "NVIDIA 支持的 AI 云服务商 Lambda 通过摩根大通获得10亿美元私人债务融资，用于向微软租赁 GPU 硬件。",
+          "details": [
+            "Lambda 通过摩根大通安排了10亿美元的私人债务融资。",
+            "融资所得主要用于向微软租赁 GPU 硬件。",
+            "Lambda 是 NVIDIA 重要的 AI 云合作伙伴。",
+            "此举凸显了 AI 基础设施市场的巨大资本需求。"
+          ],
+          "analysis": "AI 基础设施的资本密集度持续攀升，私人债务融资成为云服务商扩展 GPU 产能的重要渠道。",
+          "related": []
+        },
+        {
+          "id": "tc-008",
+          "type": "news",
+          "title": "Semafor：OpenAI内部'集体'行动引发AI安全讨论升温",
+          "importance": 3,
+          "published_at": "2026-08-30T12:00:00+08:00",
+          "source": {
+            "name": "Semafor",
+            "url": "https://semafor.com/newsletter/08/30/2026/semafor-flagship-before-its-too-late"
+          },
+          "image": null,
+          "tags": [
+            "OpenAI",
+            "AI安全",
+            "公司治理",
+            "行业动态"
+          ],
+          "summary": "Semafor报道OpenAI内部出现'集体'行动，同时AI安全呼声不断升温，要求在'为时已晚'之前采取行动。",
+          "details": [
+            "OpenAI内部出现'集体'行动",
+            "AI安全讨论在行业内持续升温",
+            "呼吁在'为时已晚'之前采取行动",
+            "反映了AI行业对安全问题的日益关注"
+          ],
+          "analysis": "OpenAI内部动态和AI安全讨论的升温显示了AI行业在快速发展中面临的治理挑战。",
+          "related": []
+        },
+        {
+          "id": "tc-009",
+          "type": "news",
+          "title": "消息称微软收紧员工AI预算，有员工28天挥霍2.8万美元Token",
+          "importance": 3,
+          "published_at": "2026-08-31T00:00:00+08:00",
+          "source": {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/0/996/254.htm"
+          },
+          "image": null,
+          "tags": [
+            "微软",
+            "AI成本",
+            "Token",
+            "企业AI",
+            "GPT5.6"
+          ],
+          "summary": "部分微软员工过度使用AI推高成本，一名员工28天AI调用花费超2.8万美元，微软已收紧管理并切换默认模型控制成本。",
+          "details": [
+            "一名员工28天AI调用Token花费超2.8万美元",
+            "微软高层对AI使用成本上涨感到担忧",
+            "已收紧管理，切换默认模型以控制成本",
+            "反映出企业AI落地中成本管控的挑战"
+          ],
+          "analysis": "企业AI采用面临\"用得起\"的现实挑战，Token经济学将成为企业AI战略的核心考量。",
+          "related": []
+        },
+        {
+          "id": "tc-010",
+          "type": "news",
+          "title": "SpaceX自产涡轮叶片，突破AI供电瓶颈",
+          "importance": 3,
+          "published_at": "2026-08-31T00:00:00+08:00",
+          "source": {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/0/996/176.htm"
+          },
+          "image": null,
+          "tags": [
+            "SpaceX",
+            "马斯克",
+            "AI",
+            "能源",
+            "数据中心"
+          ],
+          "summary": "马斯克确认SpaceX正筹建燃气轮机叶片铸造厂，提前18个月投运，旨在解决AI数据中心供电瓶颈。",
+          "details": [
+            "SpaceX在得克萨斯州巴斯特罗普建设燃气轮机叶片铸造厂",
+            "全球仅3家企业能铸造此类叶片",
+            "目标提前18个月投运",
+            "旨在解决AI基础设施的能源供应瓶颈"
+          ],
+          "analysis": "AI算力竞赛正从芯片延伸到能源，SpaceX的垂直整合策略再次展现马斯克对基础设施瓶颈的前瞻性应对。",
+          "related": []
+        },
+        {
+          "id": "tc-011",
+          "type": "news",
+          "title": "顺丰董事长王卫加入极兔董事会，任非执行董事",
+          "importance": 2,
+          "published_at": "2026-08-30T00:00:00+08:00",
+          "source": {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/0/996/244.htm"
+          },
+          "image": null,
+          "tags": [
+            "顺丰",
+            "极兔",
+            "王卫",
+            "物流"
+          ],
+          "summary": "极兔速递发布公告，顺丰董事长王卫已获委任为公司非执行董事，任期自2026年8月20日至2028年12月31日。",
+          "details": [
+            "王卫任极兔非执行董事，任期至2028年底",
+            "顺丰与极兔此前已有业务合作",
+            "反映快递行业整合趋势加速"
+          ],
+          "analysis": "物流行业头部企业间人事渗透加深，暗示行业整合可能进入新阶段。",
+          "related": []
+        }
+      ]
+    },
+    {
+      "id": "china_tech",
+      "name": "中国科技",
+      "description": "关注中国大陆 AI、互联网、消费电子、芯片、汽车、机器人、通信以及科技政策。重点关注具有行业影响力和实际价值的信息。",
+      "items": [
+        {
+          "id": "cn-001",
+          "type": "news",
+          "title": "国务院印发关于深入实施人工智能加行动的意见，六大行动加八项支撑",
+          "importance": 5,
+          "published_at": "2026-08-26T08:00:00+08:00",
+          "source": {
+            "name": "中国政府网 / CSDN",
+            "url": "https://blog.csdn.net/IT_ORACLE/article/details/164108322"
+          },
+          "image": null,
+          "tags": [
+            "AI政策",
+            "国务院",
+            "人工智能+",
+            "中国科技",
+            "政策"
+          ],
+          "summary": "国务院印发关于深入实施人工智能加行动的意见，提出6大行动和8项支撑措施，这是继人工智能加写入政府工作报告后首份国务院级专项文件。",
+          "details": [
+            "这是首份国务院级别的 AI 加专项政策文件。",
+            "文件提出6大行动方向和8项支撑措施。",
+            "标志着 AI 在中国已上升为国家行动级战略。",
+            "此前 AI 加已写入政府工作报告，此次文件是具体落实。"
+          ],
+          "analysis": "国务院专项文件的出台将为中国 AI 产业提供强有力的政策支撑，加速 AI 在各行各业的深度融合与落地。",
+          "related": []
+        },
+        {
+          "id": "cn-002",
+          "type": "news",
+          "title": "腾讯开源7700亿参数 Hy4 大模型，百万 Token 上下文刷新开源纪录",
+          "importance": 5,
+          "published_at": "2026-08-29T10:00:00+08:00",
+          "source": {
+            "name": "TechNode",
+            "url": "https://technode.com/2026/08/28/tencent-open-sources-hy4-preview-with-770b-parameters-and-a-1m-token-context/"
+          },
+          "image": null,
+          "tags": [
+            "腾讯",
+            "开源",
+            "大模型",
+            "混元",
+            "中国AI"
+          ],
+          "summary": "腾讯混元团队开源 Hy4 Preview 大模型，总参数7700亿，支持超过100万 Token 上下文，在多项基准测试中取得领先成绩。",
+          "details": [
+            "Hy4 Preview 采用混合专家架构，总参数7700亿，激活参数490亿。",
+            "GPQA Diamond 基准得分92.3，SWE-bench Pro 得分65.7。",
+            "以 Apache 2.0 许可证开源，提供 FP8 权重和 Docker 部署方案。",
+            "API 定价极具竞争力：输入 $0.834/百万 Token，输出 $2.501/百万 Token。",
+            "这是中国科技巨头在开源大模型领域的最新重要贡献。"
+          ],
+          "analysis": "腾讯 Hy4 的开源进一步巩固了中国在全球开源 AI 生态中的重要地位，百万级上下文窗口将推动更多复杂应用场景的落地。",
+          "related": []
+        },
+        {
+          "id": "cn-003",
+          "type": "rumor",
+          "title": "数码闲聊站爆料：9月或迎机圈史上最激烈新品月",
+          "importance": 4,
+          "published_at": "2026-08-25T00:00:00+08:00",
+          "source": {
+            "name": "观察者网 / 数码闲聊站微博",
+            "url": "https://www.guancha.cn/economy/2026_08_26_828781.shtml"
+          },
+          "image": null,
+          "tags": [
+            "数码闲聊站",
+            "爆料",
+            "手机",
+            "9月",
+            "旗舰"
+          ],
+          "summary": "据数码闲聊站爆料，9月或将迎来机圈史上最激烈新品月：高端折叠线、芯片线、旗舰线三条产品线同时更新。",
+          "details": [
+            "高端折叠线：华为三折叠、小米阔折叠、苹果阔折叠",
+            "芯片线：小米玄戒O3、苹果A20系列、天玑9600、骁龙8E6、华为麒麟2026τ",
+            "旗舰线：iPhone 18、vivo X500、OPPO Find X10、华为Mate90、小米18、荣耀Magic9、iQOO16",
+            "高通预计9月22-24日骁龙峰会推出新一代骁龙8 Elite",
+            "华为麒麟芯片将首次完整采用\"逻辑折叠\"技术"
+          ],
+          "analysis": "9月手机市场将出现罕见的多品牌旗舰集中发布，芯片、折叠屏和AI三条竞争线首次密集交织。最终以官方发布为准。",
+          "related": []
+        },
+        {
+          "id": "cn-004",
+          "type": "news",
+          "title": "上海电信突发大范围断网，近两年内第三次",
+          "importance": 4,
+          "published_at": "2026-08-31T00:00:00+08:00",
+          "source": {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/0/996/250.htm"
+          },
+          "image": null,
+          "tags": [
+            "上海电信",
+            "断网",
+            "中国电信",
+            "通信"
+          ],
+          "summary": "8月30日晚上海电信突发大范围断网，嘉定、浦东等区域宽带和手机信号中断，这是近两年内第三次类似故障。",
+          "details": [
+            "嘉定、浦东等区域受影响",
+            "10000号客服和App报障通道也一度瘫痪",
+            "官方称嘉定部分城区网络故障，21:20起陆续恢复",
+            "这是上海电信近两年内第三次大面积断网",
+            "2024年和2026年3月均发生过类似事件"
+          ],
+          "analysis": "关键基础设施的频繁故障暴露运营商网络韧性不足，对智慧城市和数字经济发展构成隐患。",
+          "related": []
+        },
+        {
+          "id": "cn-005",
+          "type": "news",
+          "title": "广东省首个词元经济专项金融产品'词元贷'正式发布",
+          "importance": 4,
+          "published_at": "2026-08-31T10:46:00+08:00",
+          "source": {
+            "name": "36氪",
+            "url": "https://36kr.com/newsflashes/3962818222652809"
+          },
+          "image": null,
+          "tags": [
+            "AI",
+            "金融科技",
+            "词元",
+            "广东",
+            "企业融资"
+          ],
+          "summary": "广东省首个词元经济专项金融产品'词元贷'在广州市海珠区正式发布，中国银行、中信银行、广州银行3家银行参与布局，旨在纾解AI企业融资困境。",
+          "details": [
+            "'词元贷'是广东省首个词元经济专项金融产品",
+            "中国银行、中信银行、广州银行3家银行参与布局",
+            "中国银行率先落地首笔授信",
+            "产品旨在解决AI企业'轻资产、弱报表、散流水'的融资难题"
+          ],
+          "analysis": "词元贷的推出反映了中国在AI产业金融支持方面的创新尝试，有望缓解AI企业的现金流压力。",
+          "related": [
+            {
+              "title": "http://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260831_3180064.sht",
+              "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260831_3180064.shtml"
+            }
+          ]
+        },
+        {
+          "id": "cn-006",
+          "type": "news",
+          "title": "中国中车首曝小米澎程系列汽车电驱：自带\"高铁基因\"",
+          "importance": 3,
+          "published_at": "2026-08-31T00:00:00+08:00",
+          "source": {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/0/996/214.htm"
+          },
+          "image": null,
+          "tags": [
+            "小米汽车",
+            "中国中车",
+            "电驱",
+            "新能源汽车"
+          ],
+          "summary": "中国中车官方发文介绍与小米汽车的合作，透露小米澎程系列汽车电驱自带\"高铁基因\"，主打稳定、高效、耐久。",
+          "details": [
+            "中国中车与小米汽车合作开发电驱系统",
+            "澎程电驱主打\"高铁基因\"，强调稳定、高效、耐久",
+            "小米集团董事长特别助理徐洁云发文\"助力\"合作伙伴"
+          ],
+          "analysis": "小米汽车将高铁级制造经验引入新能源汽车电驱，跨界合作模式值得关注。",
+          "related": []
+        },
+        {
+          "id": "cn-007",
+          "type": "news",
+          "title": "小米18 Pro系列手机有望首发防窥屏功能",
+          "importance": 3,
+          "published_at": "2026-08-31T00:00:00+08:00",
+          "source": {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/0/996/093.htm"
+          },
+          "image": null,
+          "tags": [
+            "小米18 Pro",
+            "防窥屏",
+            "手机安全"
+          ],
+          "summary": "消息源从国际版ROM固件中挖掘发现小米防窥屏功能，支付、转账等4类敏感场景将自动开启。",
+          "details": [
+            "消息源@kacskrz于8月28日在X平台发布推文分享视频和图片",
+            "从国际版ROM固件中挖掘发现防窥屏相关信息",
+            "支付、转账等4类敏感场景自动开启",
+            "小米18 Pro系列有望首发搭载"
+          ],
+          "analysis": "防窥屏功能从软件层面解决公共场景隐私问题，有望成为旗舰手机新标配。",
+          "related": []
+        },
+        {
+          "id": "cn-008",
+          "type": "news",
+          "title": "国投智能安保机器人业务处于试点验证阶段，正构建'平台+运营'闭环",
+          "importance": 3,
+          "published_at": "2026-08-31T10:00:00+08:00",
+          "source": {
+            "name": "36氪",
+            "url": "https://36kr.com/newsflashes/3962776001739912"
+          },
+          "image": null,
+          "tags": [
+            "机器人",
+            "安保",
+            "AI",
+            "国投智能",
+            "商业模式"
+          ],
+          "summary": "国投智能在互动平台表示，公司安保机器人业务目前处于试点验证阶段，正积极构建'平台+运营'业务闭环，探索'租赁+服务'的RaaS商业模式。",
+          "details": [
+            "国投智能安保机器人业务处于试点验证阶段",
+            "正积极构建'平台+运营'业务闭环",
+            "探索'租赁+服务'的RaaS商业模式",
+            "依托'元枢'大脑AI能力以及公共安全场景积淀"
+          ],
+          "analysis": "国投智能的安保机器人业务展示了中国企业在AI机器人领域的商业探索，RaaS模式有望推动机器人服务的普及。",
+          "related": []
+        },
+        {
+          "id": "cn-009",
+          "type": "news",
+          "title": "鸿蒙智行发布共光路舱内激光雷达，首创'一镜双模'架构",
+          "importance": 3,
+          "published_at": "2026-08-31T10:37:00+08:00",
+          "source": {
+            "name": "36氪",
+            "url": "https://36kr.com/newsflashes/3962811338292357"
+          },
+          "image": null,
+          "tags": [
+            "鸿蒙智行",
+            "激光雷达",
+            "智能驾驶",
+            "华为",
+            "传感器"
+          ],
+          "summary": "鸿蒙智行正式发布共光路舱内激光雷达，首创'一镜双模'共光路架构，将激光雷达与摄像头合二为一，实现3D点云信息与2D图像信息的融合同步。",
+          "details": [
+            "首创'一镜双模'共光路架构",
+            "将激光雷达与摄像头合二为一",
+            "实现3D点云信息与2D图像信息的融合同步",
+            "可提升智能驾驶的感知精度"
+          ],
+          "analysis": "鸿蒙智行的这一创新展示了中国在智能驾驶传感器领域的技术进步，有望推动自动驾驶技术的发展。",
+          "related": [
+            {
+              "title": "https://weibo.com/3032210184/RfMmbu90z",
+              "url": "https://weibo.com/3032210184/RfMmbu90z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "open_source",
+      "name": "开源与开发者",
+      "description": "关注 GitHub 热门项目、开源 AI 模型、开发工具、编程框架、数据库、操作系统以及值得开发者关注的新项目。",
+      "items": [
+        {
+          "id": "os-001",
+          "type": "news",
+          "title": "OpenAI 发布10项数学突破：Astra 模型在未解问题上取得进展",
+          "importance": 4,
+          "published_at": "2026-08-01T08:00:00+08:00",
+          "source": {
+            "name": "OpenAI / GitHub",
+            "url": "https://github.com/openai/ten-proofs"
+          },
+          "image": null,
+          "tags": [
+            "OpenAI",
+            "Astra",
+            "数学",
+            "Lean",
+            "形式化证明",
+            "研究"
+          ],
+          "summary": "OpenAI 发布论文和 Lean 4 形式化证明，展示其下一代旗舰模型 Astra 在10个数学和理论计算机科学未解问题上取得新进展。",
+          "details": [
+            "Astra 模型在高维球体堆积密度、二进制码上界等10个长期未解问题上取得突破。",
+            "所有证明均以 Lean 4 软件形式化验证，可在 GitHub 上独立检验。",
+            "涉及算术电路复杂性、群论、算子代数、量子复杂性、格密码学等多个领域。",
+            "这是 OpenAI 首次将数学能力评估从测试题扩展到真实未解研究问题。"
+          ],
+          "analysis": "Astra 模型在数学前沿问题上的突破标志着 AI 在纯数学研究领域的重大进展，形式化验证确保了结果的可靠性。",
+          "related": []
+        },
+        {
+          "id": "os-002",
+          "type": "news",
+          "title": "OpenMAIC：开源多智能体交互式课堂，一键获得沉浸式学习体验",
+          "importance": 4,
+          "published_at": "2026-08-31T10:00:00+08:00",
+          "source": {
+            "name": "GitHub",
+            "url": "https://github.com/THU-MAIC/OpenMAIC"
+          },
+          "image": null,
+          "tags": [
+            "开源",
+            "AI",
+            "多智能体",
+            "教育",
+            "GitHub"
+          ],
+          "summary": "清华大学MAIC团队发布OpenMAIC（开源多智能体交互式课堂），用户只需一键即可获得沉浸式多智能体学习体验，今日在GitHub上获得1370颗星。",
+          "details": [
+            "OpenMAIC是开源的多智能体交互式课堂系统",
+            "用户只需一键即可获得沉浸式学习体验",
+            "今日在GitHub上获得1370颗星",
+            "由清华大学MAIC团队开发"
+          ],
+          "analysis": "OpenMAIC的发布展示了中国高校在AI教育领域的创新成果，有望推动AI教育工具的普及。",
+          "related": []
+        },
+        {
+          "id": "os-003",
+          "type": "news",
+          "title": "阿里Qwen3.8-27B单卡可跑，部分基准超越Claude Opus",
+          "importance": 3,
+          "published_at": "2026-08-14T00:00:00+08:00",
+          "source": {
+            "name": "VentureBeat / Unbiased Headlines",
+            "url": "https://unbiasedheadlines.com/article/alibabas-qwen38-27b-runs-on-a-single-gaming-gpu-beats-some-claude-opus-benchmarks"
+          },
+          "image": null,
+          "tags": [
+            "Qwen3.8",
+            "开源模型",
+            "阿里",
+            "Claude Opus",
+            "27B"
+          ],
+          "summary": "阿里Qwen3.8-27B开源模型可在单张消费级GPU上运行，SWE-bench Pro得分61.7，部分编码基准匹配或超越Claude Opus。",
+          "details": [
+            "27B参数模型，Apache 2.0开源协议",
+            "SWE-bench Pro得分61.7，LiveCodeBench v6得分90.3",
+            "可在RTX 4090或24GB统一内存Mac上运行",
+            "支持262,144 token上下文，可扩展至100万token",
+            "在Terminal-Bench和HLE上Opus仍领先"
+          ],
+          "analysis": "中国开源模型正在逼近美国闭源前沿模型的水平，开源与闭源的竞争格局持续演变。",
+          "related": []
+        },
+        {
+          "id": "os-004",
+          "type": "news",
+          "title": "DeepSeek Harness项目GitHub星标超14.8万",
+          "importance": 3,
+          "published_at": "2026-08-17T00:00:00+08:00",
+          "source": {
+            "name": "GitHub",
+            "url": "https://github.com/deepseek-ai/deepseek-harness"
+          },
+          "image": null,
+          "tags": [
+            "DeepSeek",
+            "开源",
+            "GitHub",
+            "Harness",
+            "插件"
+          ],
+          "summary": "DeepSeek的deepseek-harness项目在GitHub上获得超过14.8万星标，采用\"一切皆插件\"的架构理念。",
+          "details": [
+            "GitHub星标超过148,247",
+            "采用TypeScript构建",
+            "\"一切皆插件\"的架构理念",
+            "DeepSeek持续在开源社区保持高活跃度"
+          ],
+          "analysis": "DeepSeek通过开源生态持续扩大在中国AI开发者中的影响力。",
+          "related": []
+        },
+        {
+          "id": "os-005",
+          "type": "news",
+          "title": "千问办公首发上线Qwen3.8-Flash，生成速度提升100%",
+          "importance": 3,
+          "published_at": "2026-08-27T00:00:00+08:00",
+          "source": {
+            "name": "量子位",
+            "url": "https://www.qbitai.com/"
+          },
+          "image": null,
+          "tags": [
+            "Qwen",
+            "千问",
+            "阿里",
+            "AI模型",
+            "Flash"
+          ],
+          "summary": "千问办公首发上线Qwen3.8-Flash模型，生成速度提升100%，Token消耗减少75%，同步推出标准模式。",
+          "details": [
+            "Qwen3.8-Flash在千问办公首发上线",
+            "生成速度提升100%",
+            "Token消耗减少75%",
+            "同时推出标准模式"
+          ],
+          "analysis": "国产大模型在推理效率上的持续优化，降低企业AI使用成本。",
+          "related": []
+        },
+        {
+          "id": "os-006",
+          "type": "news",
+          "title": "GitHub 趋势：livekit/agents 和 scientific-agent-skills 等项目热度攀升",
+          "importance": 3,
+          "published_at": "2026-08-30T10:00:00+08:00",
+          "source": {
+            "name": "GitHub Trending",
+            "url": "https://github.com/explore"
+          },
+          "image": null,
+          "tags": [
+            "GitHub",
+            "开源",
+            "趋势项目",
+            "AI Agent",
+            "实时语音"
+          ],
+          "summary": "GitHub 趋势项目榜显示 livekit/agents（实时语音 AI Agent 框架）和 scientific-agent-skills（科研 Agent 技能库）等项目热度持续攀升。",
+          "details": [
+            "livekit/agents 拥有13.8k星，专注于实时语音和视频 AI Agent 构建。",
+            "scientific-agent-skills 拥有39.4k星，为科研场景提供 Agent 技能支持。",
+            "THU-MAIC/OpenMAIC（清华多智能体交互课堂）拥有24.4k星。",
+            "GitHub 趋势反映了 AI Agent 和多智能体系统正在成为开发者社区的热点方向。"
+          ],
+          "analysis": "AI Agent 和多智能体系统正从研究走向工程实践，开源社区在这一方向上的活跃度预示着 Agent 生态的快速成熟。",
+          "related": []
+        },
+        {
+          "id": "os-007",
+          "type": "news",
+          "title": "Crawl4AI：开源的LLM友好型网页爬虫和抓取工具，GitHub星标超8万",
+          "importance": 3,
+          "published_at": "2026-08-31T10:00:00+08:00",
+          "source": {
+            "name": "GitHub",
+            "url": "https://github.com/unclecode/crawl4ai"
+          },
+          "image": null,
+          "tags": [
+            "开源",
+            "爬虫",
+            "LLM",
+            "开发者工具",
+            "Python"
+          ],
+          "summary": "Crawl4AI是一个开源的LLM友好型网页爬虫和抓取工具，在GitHub上获得80,300颗星，今日新增221颗星，专为LLM数据准备而设计。",
+          "details": [
+            "Crawl4AI是开源的LLM友好型网页爬虫工具",
+            "在GitHub上获得80,300颗星",
+            "今日新增221颗星",
+            "专为LLM数据准备而设计"
+          ],
+          "analysis": "Crawl4AI的流行反映了开发者对LLM数据准备工具的需求，为AI应用开发提供了重要的数据获取支持。",
+          "related": []
+        },
+        {
+          "id": "os-008",
+          "type": "news",
+          "title": "开源供应链攻击检测工具Packj发布",
+          "importance": 3,
+          "published_at": "2026-08-31T14:47:00+08:00",
+          "source": {
+            "name": "GitHub",
+            "url": "https://github.com/ossillate-inc/packj"
+          },
+          "image": null,
+          "tags": [
+            "开源",
+            "安全",
+            "供应链攻击",
+            "开发者工具",
+            "GitHub"
+          ],
+          "summary": "开源软件供应链安全工具Packj发布，帮助开发者检测和防范软件供应链攻击，提升开源项目的使用安全性。",
+          "details": [
+            "Packj是开源的软件供应链安全检测工具",
+            "帮助开发者检测和防范软件供应链攻击",
+            "提升开源项目的使用安全性",
+            "由Ossillate Inc.开发"
+          ],
+          "analysis": "随着软件供应链攻击事件的增加，Packj这类安全检测工具的重要性日益凸显，有助于提升开源生态的安全性。",
+          "related": []
+        },
+        {
+          "id": "os-009",
+          "type": "news",
+          "title": "Kosha：开源的Rust语言turbopuffer替代方案",
+          "importance": 3,
+          "published_at": "2026-08-31T15:28:00+08:00",
+          "source": {
+            "name": "GitHub",
+            "url": "https://github.com/decover-tech/kosha"
+          },
+          "image": null,
+          "tags": [
+            "开源",
+            "Rust",
+            "向量数据库",
+            "开发者工具",
+            "GitHub"
+          ],
+          "summary": "开源项目Kosha发布，这是一个用Rust语言开发的turbopuffer替代方案，为开发者提供高性能的向量存储解决方案。",
+          "details": [
+            "Kosha是开源的turbopuffer替代方案",
+            "使用Rust语言开发，具有高性能特性",
+            "为开发者提供向量存储解决方案",
+            "由Decover Tech开发"
+          ],
+          "analysis": "Kosha的发布丰富了Rust语言的AI基础设施生态，为需要高性能向量存储的开发者提供了新的选择。",
+          "related": []
+        }
+      ]
+    },
+    {
+      "id": "free_deals",
+      "name": "免费与低价福利",
+      "description": "关注可以免费或低成本使用的 AI、软件、云服务、开发工具、会员、API、GPU、教育资源以及限时优惠。优先关注真实可用、具有实际价值的福利。",
+      "items": [
+        {
+          "id": "fd-001",
+          "type": "deal",
+          "title": "AMD Radeon Cloud每日10美元免费API额度，覆盖主流大模型",
+          "importance": 4,
+          "published_at": "2026-08-17T00:00:00+08:00",
+          "source": {
+            "name": "风山渐博客",
+            "url": "https://www.sunzhizhi.cn/blog/cloud-api-deals-august-2026"
+          },
+          "image": null,
+          "tags": [
+            "AMD",
+            "免费API",
+            "大模型",
+            "开发工具",
+            "优惠"
+          ],
+          "summary": "AMD Radeon Cloud推出每日10美元免费API额度，覆盖DeepSeek、Kimi、通义千问、GLM等主流模型，额度每日自动重置。",
+          "details": [
+            "每日10美元免费API额度，额度每日自动重置",
+            "覆盖DeepSeek、Kimi、通义千问、GLM等主流模型",
+            "适合高频对比测试多个模型",
+            "个人开发者几乎可以零成本完成原型验证"
+          ],
+          "analysis": "AI模型API的免费额度竞争白热化，开发者可通过组合多平台免费额度实现零成本开发。",
+          "related": []
+        },
+        {
+          "id": "fd-002",
+          "type": "deal",
+          "title": "Anthropic 为科学家提供1万个免费和优惠 Claude 订阅席位",
+          "importance": 4,
+          "published_at": "2026-08-27T08:00:00+08:00",
+          "source": {
+            "name": "Unite.AI / Anthropic",
+            "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+          },
+          "image": null,
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "免费",
+            "科学家",
+            "AI for Science"
+          ],
+          "summary": "Anthropic 为科学家提供1万个免费和优惠 Claude Team 订阅席位，标准席位免费，高级席位仅需 $15/月，并扩展 AI for Science 信贷计划。",
+          "details": [
+            "标准席位完全免费（原价 $20/月），高级席位 $15/月（原价 $100/月）。",
+            "申请者须为学术或非营利研究机构的首席研究员。",
+            "AI for Science 信贷计划扩展至生物学以外的更多学科。",
+            "研究人员可申请每个项目最高 $50,000 的 API 额度。",
+            "已有10,000个席位可用，Anthropic 计划在未来数月进一步扩展。"
+          ],
+          "analysis": "Anthropic 通过免费和低价策略积极争夺科研用户群，既建立学术影响力，也为未来的商业转化奠定基础。",
+          "related": []
+        },
+        {
+          "id": "fd-003",
+          "type": "deal",
+          "title": "2026年免费AI大模型API清单：智谱GLM-4.7-Flash等多款模型免费调用",
+          "importance": 3,
+          "published_at": "2026-08-15T00:00:00+08:00",
+          "source": {
+            "name": "博客园",
+            "url": "https://www.cnblogs.com/you1/articles/22482556"
+          },
+          "image": null,
+          "tags": [
+            "免费API",
+            "AI模型",
+            "智谱",
+            "DeepSeek",
+            "开发者"
+          ],
+          "summary": "截至2026年8月，智谱GLM-4.7-Flash、DeepSeek等多款大模型提供免费API调用，开发者可零成本起步。",
+          "details": [
+            "智谱GLM-4.7-Flash免费调用，国内直连，兼容OpenAI格式",
+            "DeepSeek提供免费额度",
+            "火山引擎与阿里云百炼对新用户赠送Token",
+            "Hugging Face提供社区模型推理免费额度",
+            "组合使用可覆盖从原型到小规模测试全流程"
+          ],
+          "analysis": "国产大模型免费API生态日趋完善，为中国开发者提供了低成本AI开发的黄金窗口。",
+          "related": []
+        },
+        {
+          "id": "fd-004",
+          "type": "deal",
+          "title": "Google 向美国大学生免费提供一年 AI Pro 订阅，含5TB存储",
+          "importance": 3,
+          "published_at": "2026-08-19T08:00:00+08:00",
+          "source": {
+            "name": "Google Blog / Technology.org",
+            "url": "https://www.technology.org/2026/08/20/google-ai-pro-free-year-college-students/"
+          },
+          "image": null,
+          "tags": [
+            "Google",
+            "Gemini",
+            "免费",
+            "学生优惠",
+            "AI Pro"
+          ],
+          "summary": "Google 向美国合格大学生免费提供一年 Google AI Pro 订阅，包含4倍 Gemini 使用限额、Gemini Spark、5TB存储和 Google Health Premium。",
+          "details": [
+            "美国大学生可获得12个月免费 Google AI Pro 订阅（价值约$240/年）。",
+            "包含4倍 Gemini 使用限额、Gemini Spark、Gmail 和 Docs 中的 AI 功能。",
+            "附赠5TB云存储和 Google Health Premium。",
+            "140多个其他市场的学生可免费获得 Google AI Plus（含 Gemini Omni 和400GB存储）。",
+            "领取截止日期为2026年12月31日，到期后自动续费。"
+          ],
+          "analysis": "Google 通过大规模免费策略争夺学生用户群，既是增长手段也是对抗 Anthropic 和 OpenAI 在教育领域扩张的防御措施。",
+          "related": []
+        },
+        {
+          "id": "fd-005",
+          "type": "deal",
+          "title": "Anthropic Claude Sonnet 5 促销价格8月31日到期，标准价格上调50%",
+          "importance": 3,
+          "published_at": "2026-08-31T00:00:00+08:00",
+          "source": {
+            "name": "Anthropic / Digital Applied",
+            "url": "https://www.digitalapplied.com/blog/ai-model-releases-august-2026-tracker"
+          },
+          "image": null,
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "定价",
+            "促销到期",
+            "AI工具"
+          ],
+          "summary": "Anthropic Claude Sonnet 5 的促销定价于8月31日到期，输入价格从 $2/百万Token 上调至 $3/百万Token，输出从 $10 上调至 $15，涨幅50%。",
+          "details": [
+            "Sonnet 5 促销价于8月31日到期，标准价统一上调50%。",
+            "输入价格从 $2/百万Token 上调至 $3/百万Token。",
+            "输出价格从 $10/百万Token 上调至 $15/百万Token。",
+            "此前的低价策略旨在快速获取用户，现在进入商业化阶段。"
+          ],
+          "analysis": "Sonnet 5 价格上调反映了 Anthropic 从用户增长转向盈利的策略转变，对依赖低价 API 的开发者团队构成成本压力。",
+          "related": []
+        },
+        {
+          "id": "fd-006",
+          "type": "deal",
+          "title": "腾讯云2026采购季：GPU服务器1.5折起，大模型Token Plan 39元/月",
+          "importance": 3,
+          "published_at": "2026-08-31T00:00:00+08:00",
+          "source": {
+            "name": "腾讯云开发者社区",
+            "url": "https://cloud.tencent.com/developer/article/2659305"
+          },
+          "image": null,
+          "tags": [
+            "腾讯云",
+            "GPU",
+            "AI部署",
+            "优惠",
+            "服务器"
+          ],
+          "summary": "腾讯云2026采购季推出多项AI相关优惠：GPU服务器1.5折起、HAI即开即用0.8折起、大模型Token Plan 39元/月。",
+          "details": [
+            "GPU云服务器1.5折起，覆盖T4/A10/A100等卡型",
+            "HAI高性能应用服务0.8折起，即开即用部署LLM",
+            "大模型Token Plan低至39元/月，覆盖混元/DeepSeek/Kimi/GLM/MiniMax",
+            "新用户免费CVM试用（2核2G 1个月）",
+            "企业用户可申请最高50%算力补贴"
+          ],
+          "analysis": "云厂商通过大幅补贴抢占AI开发者市场，是中小团队和独立开发者降低AI开发成本的好时机。",
+          "related": []
+        },
+        {
+          "id": "fd-007",
+          "type": "deal",
+          "title": "Customer.io为初创企业提供12个月免费自动化消息服务",
+          "importance": 3,
+          "published_at": "2026-08-31T10:00:00+08:00",
+          "source": {
+            "name": "Product Hunt",
+            "url": "https://www.producthunt.com/products/customer-io"
+          },
+          "image": null,
+          "tags": [
+            "免费",
+            "初创企业",
+            "自动化消息",
+            "营销工具",
+            "SaaS"
+          ],
+          "summary": "Customer.io宣布为初创企业提供12个月免费的自动化消息服务，帮助初创企业降低营销和客户沟通成本。",
+          "details": [
+            "Customer.io为初创企业提供12个月免费服务",
+            "服务包括自动化消息、邮件营销等功能",
+            "旨在帮助初创企业降低营销成本",
+            "需要通过Product Hunt申请"
+          ],
+          "analysis": "这一优惠为初创企业提供了宝贵的免费营销工具资源，有助于降低创业初期的运营成本。",
+          "related": []
+        },
+        {
+          "id": "fd-008",
+          "type": "deal",
+          "title": "Sayscroll：AI提词器，根据说话速度自动滚动",
+          "importance": 2,
+          "published_at": "2026-08-31T10:00:00+08:00",
+          "source": {
+            "name": "Product Hunt",
+            "url": "https://www.producthunt.com/products/sayscroll"
+          },
+          "image": null,
+          "tags": [
+            "AI",
+            "提词器",
+            "视频",
+            "生产力工具",
+            "免费试用"
+          ],
+          "summary": "Sayscroll是一款AI提词器工具，能够根据说话者的语速自动滚动文本，适合视频录制和直播场景，提供免费试用。",
+          "details": [
+            "Sayscroll是AI驱动的提词器工具",
+            "能根据说话者语速自动滚动文本",
+            "适合视频录制和直播场景",
+            "提供免费试用"
+          ],
+          "analysis": "Sayscroll展示了AI在内容创作工具中的实用应用，为视频创作者提供了便捷的提词解决方案。",
+          "related": []
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "name": "科技研究",
+      "description": "关注值得关注的 AI、计算机、芯片、机器人、材料、通信等领域科研成果。优先选择具有潜在产业影响或技术突破意义的研究。",
+      "items": [
+        {
+          "id": "rs-001",
+          "type": "news",
+          "title": "Google DeepMind Co-Scientist 升级：从假说生成器变为实验室集成研究伙伴",
+          "importance": 5,
+          "published_at": "2026-08-27T10:00:00+08:00",
+          "source": {
+            "name": "Google DeepMind / arXiv",
+            "url": "https://arxiv.org/abs/2608.26701"
+          },
+          "image": null,
+          "tags": [
+            "Google DeepMind",
+            "Co-Scientist",
+            "AI科研",
+            "Gemini",
+            "实验自动化"
+          ],
+          "summary": "Google DeepMind 将 Co-Scientist 从假说生成器升级为可规划实验、编写代码、控制实验室设备并撰写论文的闭环研究伙伴，已在材料科学、生物学和计算机科学领域通过验证。",
+          "details": [
+            "Co-Scientist 现可基于 Gemini 模型规划实验、编写代码并直接控制实验室设备。",
+            "在材料科学领域设计了安全的 MXene 合成路线，首次尝试即成功生长单层半导体。",
+            "利用 Gemini 3 Deep Think 进行直接设备控制，将配方开发时间从数天缩短至数分钟。",
+            "在双盲研究中，Co-Scientist 有4%的结果被标记为捏造（开启可靠性模块），而对比系统为46%。",
+            "在计算机科学领域完全自主设计了医疗 AI 架构。"
+          ],
+          "analysis": "Co-Scientist 从软件假说到硬件实验的跨越标志着 AI 科研从辅助工具向自主研究伙伴的重大转变。",
+          "related": []
+        },
+        {
+          "id": "rs-002",
+          "type": "news",
+          "title": "NASA罗曼太空望远镜由SpaceX猎鹰重型火箭成功发射",
+          "importance": 5,
+          "published_at": "2026-08-30T15:51:00+08:00",
+          "source": {
+            "name": "Space.com",
+            "url": "https://www.space.com/space-exploration/launches-spacecraft/nasa-roman-space-telescope-launch-success-on-a-spacex-falcon-heavy-rocket-spectacular-launch-video"
+          },
+          "image": null,
+          "tags": [
+            "NASA",
+            "SpaceX",
+            "太空望远镜",
+            "航天",
+            "罗曼"
+          ],
+          "summary": "NASA罗曼太空望远镜由SpaceX猎鹰重型火箭成功发射，这是NASA新一代天文学观测的重要里程碑，将用于研究暗能量和系外行星。",
+          "details": [
+            "NASA罗曼太空望远镜成功发射",
+            "由SpaceX猎鹰重型火箭运载",
+            "这是NASA新一代天文学观测的重要里程碑",
+            "望远镜将用于研究暗能量和系外行星"
+          ],
+          "analysis": "罗曼太空望远镜的成功发射标志着人类太空观测能力的重要提升，将为天文学研究提供宝贵数据。",
+          "related": []
+        },
+        {
+          "id": "rs-003",
+          "type": "news",
+          "title": "Anthropic 发布论文：自动化研究员可可靠缓解对齐失败",
+          "importance": 4,
+          "published_at": "2026-08-28T08:00:00+08:00",
+          "source": {
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com/research"
+          },
+          "image": null,
+          "tags": [
+            "Anthropic",
+            "AI安全",
+            "对齐",
+            "研究",
+            "自动化"
+          ],
+          "summary": "Anthropic 新论文表明前沿模型可自主缓解10种不同类型的对齐失败，包括欺骗、谄媚、越狱、权力寻求和幻觉，效率比人类高出4.25倍。",
+          "details": [
+            "Anthropic 论文证明 AI 可自主缓解包括欺骗、谄媚、越狱在内的10种对齐失败。",
+            "自动化缓解方法比人类方法便宜37.5倍、速度快得多、效果高出4.25倍。",
+            "该方法通过迭代循环的文献搜索、方法提出、训练和评分来实现。",
+            "这是 AI 自我改进安全能力的重要突破。"
+          ],
+          "analysis": "AI 自主改进自身安全性的能力意味着对齐问题可能不再完全依赖人类监督，这一递归过程可能成为行业新标准。",
+          "related": []
+        },
+        {
+          "id": "rs-004",
+          "type": "news",
+          "title": "连续扩散语言模型（CDLM）：探索LLM推理新范式",
+          "importance": 4,
+          "published_at": "2026-08-30T13:00:00+08:00",
+          "source": {
+            "name": "Sander.ai",
+            "url": "https://sander.ai/2026/08/24/continuous-dlms.html"
+          },
+          "image": null,
+          "tags": [
+            "AI研究",
+            "扩散模型",
+            "语言模型",
+            "LLM",
+            "推理"
+          ],
+          "summary": "Sander.ai发表文章探讨连续扩散语言模型（CDLM），这是一种结合扩散模型和语言模型的新范式，可能为LLM推理提供新的技术路径。",
+          "details": [
+            "连续扩散语言模型（CDLM）结合了扩散模型和语言模型",
+            "探索LLM推理的新技术范式",
+            "可能为AI模型性能提升提供新方向",
+            "文章在Hacker News上获得61分"
+          ],
+          "analysis": "CDLM代表了AI研究的前沿方向，将扩散模型的成功经验引入语言模型领域，可能推动AI推理技术的突破。",
+          "related": [
+            {
+              "title": "https://kuleshov-group.github.io/blog/blog/2026/how-to-build",
+              "url": "https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model/"
+            }
+          ]
+        },
+        {
+          "id": "rs-005",
+          "type": "news",
+          "title": "华盛顿州立大学用 AI 搜索1亿种可能性，找到更便宜的 NASA 火箭合金3D打印方案",
+          "importance": 3,
+          "published_at": "2026-08-27T08:00:00+08:00",
+          "source": {
+            "name": "ScienceDaily",
+            "url": "http://sciencedaily.com/releases/2026/08/260827010504.htm"
+          },
+          "image": null,
+          "tags": [
+            "AI研究",
+            "3D打印",
+            "NASA",
+            "材料科学",
+            "优化"
+          ],
+          "summary": "华盛顿州立大学研究人员用 AI 搜索超过1亿种可能的3D打印参数配置，仅通过40次实验就找到了在仅500瓦功率下成功打印 NASA 火箭合金 GRCop-42 的方案。",
+          "details": [
+            "AI 系统搜索了超过1亿种可能的3D打印参数配置。",
+            "仅通过40次实际实验就确定了6种成功配置。",
+            "其中一种方案在仅500瓦功率下成功，创历史新低。",
+            "GRCop-42 是广泛用于航空航天的高性能合金。",
+            "该 AI 策略可推广到其他涉及巨大搜索空间的科学问题。"
+          ],
+          "analysis": "AI 在材料科学优化中的应用展示了机器学习在缩小实验空间方面的巨大价值，可显著降低研发成本和时间。",
+          "related": []
+        },
+        {
+          "id": "rs-006",
+          "type": "news",
+          "title": "行业首个量子增强型大模型\"玄幂Xenomi\"发布",
+          "importance": 3,
+          "published_at": "2026-08-29T00:00:00+08:00",
+          "source": {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/0/996/131.htm"
+          },
+          "image": null,
+          "tags": [
+            "量子计算",
+            "AI模型",
+            "玄幂",
+            "国光量子",
+            "科研"
+          ],
+          "summary": "国光量子推出玄幂（Xenomi）大模型家族，将量子技术引入大语言模型决策与推理过程，为行业首个量子增强型大模型。",
+          "details": [
+            "国光量超人工智能研究团队开发",
+            "面向科研和学术领域",
+            "在科研科普、路由和智能体决策等任务中展现更稳定表现",
+            "采用领域模型训练方案，自主构建海量数据集",
+            "在SOTA级别开源基座模型基础上深度训练"
+          ],
+          "analysis": "量子计算与AI的交叉探索值得关注，但量子增强的实际效果仍需更多独立验证。",
+          "related": []
+        },
+        {
+          "id": "rs-007",
+          "type": "news",
+          "title": "全球首个基于外科世界模型的人形手术机器人项目启动",
+          "importance": 3,
+          "published_at": "2026-08-29T00:00:00+08:00",
+          "source": {
+            "name": "新浪财经",
+            "url": "https://finance.sina.com.cn/jjxw/2026-08-29/doc-inipymqv9196436.shtml"
+          },
+          "image": null,
+          "tags": [
+            "手术机器人",
+            "世界模型",
+            "张江",
+            "医疗器械",
+            "AI医疗"
+          ],
+          "summary": "2026年张江药谷创新大会上，\"全球首个基于外科世界模型的人形手术机器人项目\"正式启动。",
+          "details": [
+            "项目在2026年张江药谷创新大会·医疗器械论坛上启动",
+            "三年内将打造10个标杆应用场景",
+            "推广20个高性能模型与工具",
+            "助力40个创新药械产品进入临床"
+          ],
+          "analysis": "世界模型技术从自动驾驶向外科手术领域拓展，具身智能在医疗场景的应用前景广阔。",
+          "related": []
+        },
+        {
+          "id": "rs-008",
+          "type": "news",
+          "title": "Kuleshov团队发布如何构建扩散语言模型的技术博客",
+          "importance": 3,
+          "published_at": "2026-08-30T11:00:00+08:00",
+          "source": {
+            "name": "Kuleshov Group",
+            "url": "https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model/"
+          },
+          "image": null,
+          "tags": [
+            "AI研究",
+            "扩散模型",
+            "技术博客",
+            "教程",
+            "语言模型"
+          ],
+          "summary": "Kuleshov团队发布详细技术博客，介绍如何构建扩散语言模型，为研究人员和开发者提供了实用的技术指南。",
+          "details": [
+            "博客详细介绍了构建扩散语言模型的步骤",
+            "为研究人员和开发者提供了实用的技术指南",
+            "涵盖了模型架构、训练方法等关键技术细节",
+            "有助于推动扩散语言模型技术的普及"
+          ],
+          "analysis": "这类技术博客有助于降低AI研究的技术门槛，促进新技术的传播和应用。",
+          "related": [
+            {
+              "title": "https://sander.ai/2026/08/24/continuous-dlms.html",
+              "url": "https://sander.ai/2026/08/24/continuous-dlms.html"
+            }
+          ]
+        },
+        {
+          "id": "rs-009",
+          "type": "news",
+          "title": "Simon Willison分析理解ChatGPT的工作机制",
+          "importance": 3,
+          "published_at": "2026-08-30T16:00:00+08:00",
+          "source": {
+            "name": "Simon Willison",
+            "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/"
+          },
+          "image": null,
+          "tags": [
+            "AI研究",
+            "ChatGPT",
+            "LLM",
+            "技术分析",
+            "开发者博客"
+          ],
+          "summary": "知名开发者Simon Willison发表文章深入分析ChatGPT的工作机制，探讨其内部运作原理和技术细节。",
+          "details": [
+            "Simon Willison发表关于ChatGPT工作机制的分析文章",
+            "深入探讨ChatGPT的内部运作原理",
+            "为开发者理解LLM技术提供参考",
+            "文章在Hacker News上获得41分"
+          ],
+          "analysis": "这类技术分析文章有助于开发者更好地理解和使用AI模型，促进AI技术的普及和应用。",
+          "related": []
+        },
+        {
+          "id": "rs-010",
+          "type": "news",
+          "title": "Hugging Face推出Microduck机器人鸭子，24小时预订破260万美元",
+          "importance": 3,
+          "published_at": "2026-08-31T00:00:00+08:00",
+          "source": {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/0/996/201.htm"
+          },
+          "image": null,
+          "tags": [
+            "Hugging Face",
+            "机器人",
+            "开源硬件",
+            "Microduck"
+          ],
+          "summary": "Hugging Face旗下Pollen Robotics推出售价399美元的Microduck机器人鸭子，24小时内预订金额破260万美元。",
+          "details": [
+            "Microduck由Hugging Face旗下Pollen Robotics推出",
+            "售价399美元",
+            "24小时内预订金额破260万美元",
+            "已出现订单积压，新订单预计4至6个月后交付",
+            "被称为\"首个真正可及的强化学习机器人\""
+          ],
+          "analysis": "开源机器人硬件的商业化尝试取得初步成功，低门槛RL机器人可能加速具身智能的普及。",
+          "related": []
+        }
+      ]
+    },
+    {
+      "id": "space_robotics",
+      "name": "机器人与航天",
+      "description": "关注人形机器人、工业机器人、自动驾驶、无人机、航天发射、卫星、SpaceX 等前沿科技领域。",
+      "items": [
+        {
+          "id": "sr-001",
+          "type": "news",
+          "title": "NASA Roman 空间望远镜成功发射，搭载 SpaceX Falcon Heavy 飞向深空",
+          "importance": 5,
+          "published_at": "2026-08-30T19:26:00+08:00",
+          "source": {
+            "name": "Reuters / NASA",
+            "url": "https://www.reuters.com/science/nasa-launches-powerful-new-roman-space-telescope-florida-2026-08-30/"
+          },
+          "image": null,
+          "tags": [
+            "NASA",
+            "Roman望远镜",
+            "SpaceX",
+            "Falcon Heavy",
+            "航天"
+          ],
+          "summary": "NASA 价值43亿美元的 Nancy Grace Roman 空间望远镜于8月30日由 SpaceX Falcon Heavy 火箭成功发射，将用约100天飞往日地L2拉格朗日点，开启探索暗物质和暗能量的新时代。",
+          "details": [
+            "Roman 望远镜于美东时间8月30日上午7:26从肯尼迪航天中心成功发射。",
+            "Falcon Heavy 的两个侧助推器成功着陆回收，中央助推器被消耗。",
+            "望远镜将在约100天后抵达日地L2拉格朗日点，距地球150万公里。",
+            "配备300兆像素广域相机，视场是哈勃的100倍、韦伯的50倍。",
+            "将研究暗能量本质、暗物质以及发现数千颗系外行星。",
+            "这是 NASA 首次以女性命名的空间望远镜，提前近一年且在预算内发射。",
+            "NASA 局长 Jared Isaacman 在新闻发布会上接到特朗普总统的祝贺电话。"
+          ],
+          "analysis": "Roman 望远镜的成功发射标志着 NASA 深空观测进入新时代，其超广视场将彻底改变天文学家研究宇宙大尺度结构的方式。",
+          "related": []
+        },
+        {
+          "id": "sr-002",
+          "type": "news",
+          "title": "NASA罗曼空间望远镜搭乘SpaceX猎鹰重型火箭成功发射",
+          "importance": 5,
+          "published_at": "2026-08-31T00:00:00+08:00",
+          "source": {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/0/996/229.htm"
+          },
+          "image": null,
+          "tags": [
+            "NASA",
+            "SpaceX",
+            "罗曼望远镜",
+            "航天",
+            "暗物质"
+          ],
+          "summary": "NASA新一代旗舰太空望远镜罗曼（Roman Space Telescope）搭乘SpaceX猎鹰重型火箭成功发射，将绘制宇宙全景地图并探索暗物质。",
+          "details": [
+            "当地时间8月30日发射成功",
+            "搭乘SpaceX猎鹰重型火箭升空",
+            "将绘制前所未有的宇宙全景地图",
+            "探索暗物质与暗能量等未解之谜",
+            "为NASA新一代旗舰太空望远镜"
+          ],
+          "analysis": "罗曼望远镜是继哈勃和韦伯之后的又一里程碑，其广角观测能力将为暗物质研究提供全新视角。",
+          "related": []
+        },
+        {
+          "id": "sr-003",
+          "type": "news",
+          "title": "塞尔维亚首座机器人工厂投产，由中国和塞尔维亚联合建设",
+          "importance": 4,
+          "published_at": "2026-08-30T15:00:00+08:00",
+          "source": {
+            "name": "Facebook/环球时报",
+            "url": "https://www.facebook.com/globaltimesnews/posts/serbias-first-robot-factory-began-production-in-sabac-on-saturday-jointly-built-/1619976906841177/"
+          },
+          "image": null,
+          "tags": [
+            "机器人",
+            "塞尔维亚",
+            "中国制造",
+            "智能制造",
+            "国际合作"
+          ],
+          "summary": "塞尔维亚首座机器人工厂在萨巴奇投产，该工厂由中国和塞尔维亚联合建设，标志着中国智能制造技术的海外扩张和'一带一路'倡议在高科技领域的影响。",
+          "details": [
+            "塞尔维亚首座机器人工厂在萨巴奇投产",
+            "工厂由中国和塞尔维亚联合建设",
+            "标志着中国智能制造技术的海外扩张",
+            "反映了'一带一路'倡议在高科技领域的影响"
+          ],
+          "analysis": "这座工厂的投产展示了中国智能制造技术的国际竞争力，以及中国与东欧国家在高科技领域的合作深化。",
+          "related": []
+        },
+        {
+          "id": "sr-004",
+          "type": "news",
+          "title": "Cores in space：1980年太空实验室计算机的核心内存模块",
+          "importance": 2,
+          "published_at": "2026-08-30T10:00:00+08:00",
+          "source": {
+            "name": "Righto",
+            "url": "https://www.righto.com/2026/08/spacelab-core-memory.html"
+          },
+          "image": null,
+          "tags": [
+            "航天",
+            "计算机历史",
+            "太空",
+            "硬件",
+            "复古计算"
+          ],
+          "summary": "Righto博客展示了1980年太空实验室计算机的核心内存模块，回顾了航天计算机技术的发展历程。",
+          "details": [
+            "展示了1980年太空实验室计算机的核心内存模块",
+            "回顾了航天计算机技术的发展历程",
+            "核心内存是早期计算机的关键存储技术",
+            "该文章在Hacker News上获得82分"
+          ],
+          "analysis": "这类技术考古文章帮助我们理解航天计算机技术的演进，展示了从核心内存到现代存储技术的发展轨迹。",
+          "related": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "bot": "collector-1",
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T16:00:00+08:00",
+  "note": "Batch 1: AI + 数码产品。Tencent Hy4开源模型、vLLM更新、OpenAI终止与Cursor合作、DALL·E GPT退役。",
+  "categories": [
+    {
+      "id": "ai",
+      "items": [
+        {
+          "id": "ai-001",
+          "type": "news",
+          "title": "OpenAI 宣布终止与 Cursor 的 AI 合作，因后者被 SpaceX 收购",
+          "importance": 4,
+          "published_at": "2026-08-30T08:00:00+08:00",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/technology/artificial-intelligence"
+          },
+          "image": null,
+          "tags": ["AI", "OpenAI", "Cursor", "SpaceX", "AI编程"],
+          "summary": "OpenAI 宣布将终止其与 AI 代码编辑器 Cursor 之间的模型访问合作，原因是 Cursor 已被 Elon Musk 旗下的 SpaceX 收购。",
+          "details": [
+            "OpenAI 表示将切断对 Cursor 的模型访问权限，此举发生在 SpaceX 收购 Cursor 之后。",
+            "Cursor 是目前最受欢迎的 AI 驱动代码编辑器之一，此前一直使用 OpenAI 的模型。",
+            "此举凸显了 AI 开发工具市场竞争格局的剧烈变化。",
+            "行业分析师认为，OpenAI 的决定反映了对竞争对手控制核心分发渠道的担忧。"
+          ],
+          "analysis": "OpenAI 切断对 Cursor 的模型供应是 AI 开发工具生态重组的重要信号，SpaceX 进入 AI 编程工具市场将加剧竞争。",
+          "related": []
+        },
+        {
+          "id": "ai-002",
+          "type": "news",
+          "title": "腾讯开源 Hy4 Preview：7700亿参数大模型，百万 Token 上下文窗口",
+          "importance": 4,
+          "published_at": "2026-08-29T10:00:00+08:00",
+          "source": {
+            "name": "TechNode",
+            "url": "https://technode.com/2026/08/28/tencent-open-sources-hy4-preview-with-770b-parameters-and-a-1m-token-context/"
+          },
+          "image": null,
+          "tags": ["AI", "大模型", "开源", "腾讯", "混合专家"],
+          "summary": "腾讯混元团队正式开源 Hy4 Preview 大语言模型，总参数达7700亿，激活参数490亿，支持超过100万 Token 上下文窗口。",
+          "details": [
+            "Hy4 Preview 采用混合专家架构（MoE），包含256个路由专家和1个共享专家。",
+            "在 GPQA Diamond 基准上取得92.3分，SWE-bench Pro 取得65.7分。",
+            "模型以 Apache 2.0 许可证在 Hugging Face 开源，提供 FP8 权重和 vLLM/SGLang Docker 方案。",
+            "腾讯云 TokenHub API 定价为输入 $0.834/百万 Token，输出 $2.501/百万 Token。"
+          ],
+          "analysis": "腾讯 Hy4 的开源标志着中国大模型在混合专家架构和超长上下文方面的进一步突破，开源策略将持续推动行业竞争。",
+          "related": []
+        },
+        {
+          "id": "ai-003",
+          "type": "news",
+          "title": "Anthropic 信息窃取恶意软件劫持 Claude 会话，公司紧急处理",
+          "importance": 4,
+          "published_at": "2026-08-31T06:00:00+08:00",
+          "source": {
+            "name": "BleepingComputer",
+            "url": "https://www.bleepingcomputer.com"
+          },
+          "image": null,
+          "tags": ["AI安全", "Anthropic", "Claude", "恶意软件", "网络安全"],
+          "summary": "Anthropic 披露信息窃取恶意软件（包括 Vidar、LummaC2、StealC、RedLine 和 Acreed）劫持用户 Claude 登录会话，公司已登出受影响用户并退款。",
+          "details": [
+            "多款信息窃取恶意软件被发现能窃取用户 Claude 登录会话并消耗使用额度。",
+            "Anthropic 已主动登出受影响用户、清除保存的支付方式并退还未授权费用。",
+            "受影响的恶意软件家族包括 Vidar、LummaC2、StealC、RedLine 和 Acreed。",
+            "该事件表明 AI 平台正成为网络犯罪分子的新目标。"
+          ],
+          "analysis": "AI 平台的安全威胁正从模型层面扩展到用户会话层面，信息窃取恶意软件对 SaaS 服务构成新型攻击向量。",
+          "related": []
+        },
+        {
+          "id": "ai-004",
+          "type": "news",
+          "title": "vLLM v0.28.0 发布：大规模性能优化，新增 Kimi-K3 和 DeepSeek V4 支持",
+          "importance": 3,
+          "published_at": "2026-08-30T12:00:00+08:00",
+          "source": {
+            "name": "vLLM Project",
+            "url": "https://github.com/vllm-project/vllm"
+          },
+          "image": null,
+          "tags": ["开源", "vLLM", "推理优化", "Kimi-K3", "DeepSeek"],
+          "summary": "vLLM 项目发布 v0.28.0 版本，包含584个提交和270位贡献者的代码，新增对 Kimi-K3 和 DeepSeek V4 模型的性能优化支持。",
+          "details": [
+            "该版本包含584个提交，来自270位贡献者，是 vLLM 项目迄今最大规模的更新之一。",
+            "新增对 Moonshot AI Kimi-K3 和 DeepSeek V4 模型的原生支持与性能优化。",
+            "进一步提升了 LLM 推理服务的吞吐量和效率。",
+            "vLLM 是目前最流行的开源 LLM 推理框架之一。"
+          ],
+          "analysis": "vLLM 的持续更新巩固了其在开源 LLM 推理基础设施中的核心地位，对中国模型的支持扩展了其全球开发者生态。",
+          "related": []
+        }
+      ]
+    },
+    {
+      "id": "digital_products",
+      "items": [
+        {
+          "id": "dp-001",
+          "type": "news",
+          "title": "NVIDIA AI 优势从 GPU 向数据中心编排演进，暂停部分云厂商收入分成协议",
+          "importance": 4,
+          "published_at": "2026-08-29T14:00:00+08:00",
+          "source": {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/"
+          },
+          "image": null,
+          "tags": ["NVIDIA", "GPU", "数据中心", "AI芯片", "反垄断"],
+          "summary": "NVIDIA 的 AI 竞争优势正从 GPU 芯片扩展到数据中心流量编排，同时因反垄断担忧暂停了与部分 AI 云厂商的收入分成协议。",
+          "details": [
+            "NVIDIA 正将战略重心从单纯的 GPU 销售转向数据中心整体编排能力。",
+            "公司已暂停与部分 AI 云公司的收入分成协议，据报涉及金额达360亿美元。",
+            "此举与美国反垄断监管压力有关，旨在避免在 AI 基础设施市场形成过于集中的控制。",
+            "TechCrunch 分析认为 NVIDIA 正在从芯片公司向平台公司转型。"
+          ],
+          "analysis": "NVIDIA 暂停收入分成协议是其在 AI 基础设施市场面临反垄断审查的直接反映，可能重塑云厂商与芯片供应商的合作模式。",
+          "related": []
+        },
+        {
+          "id": "dp-002",
+          "type": "news",
+          "title": "NVIDIA 发布 Jetson Orin Nano 2：推理性能翻倍、功耗降四成",
+          "importance": 3,
+          "published_at": "2026-08-28T10:00:00+08:00",
+          "source": {
+            "name": "NVIDIA",
+            "url": "https://www.nvidia.com/en-us/jetson/"
+          },
+          "image": null,
+          "tags": ["NVIDIA", "边缘AI", "机器人", "Jetson", "嵌入式"],
+          "summary": "NVIDIA 发布 Jetson Orin Nano 2 入门级边缘 AI 模块，提供78 TOPS 推理性能，较前代翻倍，功耗降低40%。",
+          "details": [
+            "Jetson Orin Nano 2 提供78 TOPS AI 推理性能，是前代产品的两倍。",
+            "功耗降低40%，定位为机器人、无人机和视觉 AI 的入门级边缘计算方案。",
+            "目标应用场景包括配送机器人、巡检无人机和视觉 AI 部署。",
+            "NVIDIA 持续扩展其边缘 AI 产品线，覆盖从云端到终端的完整 AI 基础设施。"
+          ],
+          "analysis": "Jetson Orin Nano 2 进一步降低了边缘 AI 部署的门槛，加速机器人和自动化设备的智能化进程。",
+          "related": []
+        }
+      ]
+    }
+  ]
+}

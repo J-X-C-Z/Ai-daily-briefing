@@ -1,0 +1,175 @@
+{
+  "bot": "collector-2",
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T16:00:00+08:00",
+  "note": "p3: free_deals, space_robotics",
+  "categories": [
+    {
+      "id": "free_deals",
+      "items": [
+        {
+          "id": "fd-001",
+          "type": "deal",
+          "title": "AMD Radeon Cloud每日10美元免费API额度，覆盖主流大模型",
+          "importance": 4,
+          "published_at": "2026-08-17T00:00:00+08:00",
+          "source": {
+            "name": "风山渐博客",
+            "url": "https://www.sunzhizhi.cn/blog/cloud-api-deals-august-2026"
+          },
+          "image": null,
+          "tags": ["AMD", "免费API", "大模型", "开发工具", "优惠"],
+          "summary": "AMD Radeon Cloud推出每日10美元免费API额度，覆盖DeepSeek、Kimi、通义千问、GLM等主流模型，额度每日自动重置。",
+          "details": [
+            "每日10美元免费API额度，额度每日自动重置",
+            "覆盖DeepSeek、Kimi、通义千问、GLM等主流模型",
+            "适合高频对比测试多个模型",
+            "个人开发者几乎可以零成本完成原型验证"
+          ],
+          "analysis": "AI模型API的免费额度竞争白热化，开发者可通过组合多平台免费额度实现零成本开发。",
+          "related": []
+        },
+        {
+          "id": "fd-002",
+          "type": "deal",
+          "title": "腾讯云2026采购季：GPU服务器1.5折起，大模型Token Plan 39元/月",
+          "importance": 3,
+          "published_at": "2026-08-31T00:00:00+08:00",
+          "source": {
+            "name": "腾讯云开发者社区",
+            "url": "https://cloud.tencent.com/developer/article/2659305"
+          },
+          "image": null,
+          "tags": ["腾讯云", "GPU", "AI部署", "优惠", "服务器"],
+          "summary": "腾讯云2026采购季推出多项AI相关优惠：GPU服务器1.5折起、HAI即开即用0.8折起、大模型Token Plan 39元/月。",
+          "details": [
+            "GPU云服务器1.5折起，覆盖T4/A10/A100等卡型",
+            "HAI高性能应用服务0.8折起，即开即用部署LLM",
+            "大模型Token Plan低至39元/月，覆盖混元/DeepSeek/Kimi/GLM/MiniMax",
+            "新用户免费CVM试用（2核2G 1个月）",
+            "企业用户可申请最高50%算力补贴"
+          ],
+          "analysis": "云厂商通过大幅补贴抢占AI开发者市场，是中小团队和独立开发者降低AI开发成本的好时机。",
+          "related": []
+        },
+        {
+          "id": "fd-003",
+          "type": "deal",
+          "title": "2026年免费AI大模型API清单：智谱GLM-4.7-Flash等多款模型免费调用",
+          "importance": 3,
+          "published_at": "2026-08-15T00:00:00+08:00",
+          "source": {
+            "name": "博客园",
+            "url": "https://www.cnblogs.com/you1/articles/22482556"
+          },
+          "image": null,
+          "tags": ["免费API", "AI模型", "智谱", "DeepSeek", "开发者"],
+          "summary": "截至2026年8月，智谱GLM-4.7-Flash、DeepSeek等多款大模型提供免费API调用，开发者可零成本起步。",
+          "details": [
+            "智谱GLM-4.7-Flash免费调用，国内直连，兼容OpenAI格式",
+            "DeepSeek提供免费额度",
+            "火山引擎与阿里云百炼对新用户赠送Token",
+            "Hugging Face提供社区模型推理免费额度",
+            "组合使用可覆盖从原型到小规模测试全流程"
+          ],
+          "analysis": "国产大模型免费API生态日趋完善，为中国开发者提供了低成本AI开发的黄金窗口。",
+          "related": []
+        }
+      ]
+    },
+    {
+      "id": "space_robotics",
+      "items": [
+        {
+          "id": "sr-001",
+          "type": "news",
+          "title": "NASA罗曼空间望远镜搭乘SpaceX猎鹰重型火箭成功发射",
+          "importance": 5,
+          "published_at": "2026-08-31T00:00:00+08:00",
+          "source": {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/0/996/229.htm"
+          },
+          "image": null,
+          "tags": ["NASA", "SpaceX", "罗曼望远镜", "航天", "暗物质"],
+          "summary": "NASA新一代旗舰太空望远镜罗曼（Roman Space Telescope）搭乘SpaceX猎鹰重型火箭成功发射，将绘制宇宙全景地图并探索暗物质。",
+          "details": [
+            "当地时间8月30日发射成功",
+            "搭乘SpaceX猎鹰重型火箭升空",
+            "将绘制前所未有的宇宙全景地图",
+            "探索暗物质与暗能量等未解之谜",
+            "为NASA新一代旗舰太空望远镜"
+          ],
+          "analysis": "罗曼望远镜是继哈勃和韦伯之后的又一里程碑，其广角观测能力将为暗物质研究提供全新视角。",
+          "related": []
+        },
+        {
+          "id": "sr-002",
+          "type": "news",
+          "title": "Hugging Face推出Microduck开源机器人鸭子，24小时预订破260万美元",
+          "importance": 3,
+          "published_at": "2026-08-31T00:00:00+08:00",
+          "source": {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/0/996/201.htm"
+          },
+          "image": null,
+          "tags": ["Hugging Face", "机器人", "开源", "Microduck", "具身智能"],
+          "summary": "Hugging Face旗下Pollen Robotics推出399美元Microduck机器人鸭子，被称为\"首个真正可及的强化学习机器人\"，24小时预订超260万美元。",
+          "details": [
+            "售价399美元，面向软件开发者和AI爱好者",
+            "24小时内预订金额破260万美元，已出现订单积压",
+            "新订单预计4至6个月后交付",
+            "由法国机器人创业公司Pollen Robotics开发",
+            "Hugging Face此前已被英伟达129亿美元收购"
+          ],
+          "analysis": "低门槛开源机器人硬件的商业化尝试取得突破，可能加速具身智能从实验室走向大众。",
+          "related": []
+        },
+        {
+          "id": "sr-003",
+          "type": "news",
+          "title": "特斯拉Cybercab无人驾驶出租车在英国开始测试",
+          "importance": 3,
+          "published_at": "2026-08-31T00:00:00+08:00",
+          "source": {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/0/996/189.htm"
+          },
+          "image": null,
+          "tags": ["特斯拉", "Cybercab", "Robotaxi", "自动驾驶"],
+          "summary": "特斯拉Cybercab无人驾驶出租车在英国开始测试，这是特斯拉自动驾驶技术海外扩展的重要一步。",
+          "details": [
+            "特斯拉Cybercab在英国开始道路测试",
+            "Cybercab为特斯拉专为无人驾驶设计的车型",
+            "特斯拉Robotaxi服务已在部分美国城市运营"
+          ],
+          "analysis": "特斯拉自动驾驶技术的海外扩展标志着全球Robotaxi竞争进入新阶段。",
+          "related": []
+        },
+        {
+          "id": "sr-004",
+          "type": "news",
+          "title": "Meta测试数据中心机器人运维，部分岗位或被替代80%工作量",
+          "importance": 3,
+          "published_at": "2026-08-31T00:00:00+08:00",
+          "source": {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/0/996/222.htm"
+          },
+          "image": null,
+          "tags": ["Meta", "数据中心", "机器人", "自动化", "运维"],
+          "summary": "Meta正在数据中心测试多种机器人，包括插拔线缆、重启服务器等运维任务，员工估计部分岗位最多80%工作量可被替代。",
+          "details": [
+            "使用Watney Robotics、Kinova和ABB三家厂商的机器人",
+            "双臂Watney机器人已在Altoona数据中心测试布线",
+            "Kinova Gen3机械臂测试服务器电源循环",
+            "员工估计部分岗位最多80%工作量可被机器人替代"
+          ],
+          "analysis": "AI数据中心的运维自动化是机器人落地的又一重要场景，可能催生新的机器人产业需求。",
+          "related": []
+        }
+      ]
+    }
+  ]
+}

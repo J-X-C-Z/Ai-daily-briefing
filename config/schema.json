@@ -1,0 +1,280 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Daily Tech Intelligence",
+  "description": "每日科技资讯系统标准数据结构",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "meta",
+    "summary",
+    "categories"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "date",
+        "generated_at",
+        "period",
+        "title",
+        "description"
+      ],
+      "properties": {
+        "date": {
+          "type": "string",
+          "format": "date",
+          "description": "资讯日期，格式 YYYY-MM-DD"
+        },
+        "generated_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "JSON 生成时间，使用 ISO 8601 格式"
+        },
+        "period": {
+          "type": "string",
+          "description": "本次资讯覆盖的信息时间范围"
+        },
+        "title": {
+          "type": "string",
+          "description": "资讯页面标题"
+        },
+        "description": {
+          "type": "string",
+          "description": "本期资讯简介"
+        }
+      }
+    },
+
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "overview",
+        "key_points"
+      ],
+      "properties": {
+        "overview": {
+          "type": "string",
+          "description": "今日资讯整体概览"
+        },
+        "key_points": {
+          "type": "array",
+          "description": "今日最值得关注的核心信息",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+
+    "categories": {
+      "type": "array",
+      "description": "资讯分类",
+      "items": {
+        "$ref": "#/$defs/category"
+      }
+    }
+  },
+
+  "$defs": {
+    "category": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "description",
+        "items"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9_-]+$",
+          "description": "分类唯一标识"
+        },
+        "name": {
+          "type": "string",
+          "description": "分类名称"
+        },
+        "description": {
+          "type": "string",
+          "description": "分类说明"
+        },
+        "items": {
+          "type": "array",
+          "description": "该分类下的资讯",
+          "items": {
+            "$ref": "#/$defs/newsItem"
+          }
+        }
+      }
+    },
+
+    "newsItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "title",
+        "importance",
+        "published_at",
+        "source",
+        "image",
+        "tags",
+        "summary",
+        "details",
+        "analysis",
+        "related"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "资讯唯一 ID"
+        },
+
+        "type": {
+          "type": "string",
+          "enum": [
+            "news",
+            "product",
+            "update",
+            "deal",
+            "rumor",
+            "analysis"
+          ],
+          "description": "资讯类型"
+        },
+
+        "title": {
+          "type": "string",
+          "description": "资讯标题"
+        },
+
+        "importance": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5,
+          "description": "资讯重要性评分，1-5"
+        },
+
+        "published_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "资讯发布时间"
+        },
+
+        "source": {
+          "$ref": "#/$defs/source"
+        },
+
+        "image": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/image"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "资讯配图，没有合适图片时为 null"
+        },
+
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "资讯标签"
+        },
+
+        "summary": {
+          "type": "string",
+          "description": "资讯简短摘要，用于卡片默认显示"
+        },
+
+        "details": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "资讯详细内容，用于展开后的详细阅读"
+        },
+
+        "analysis": {
+          "type": "string",
+          "description": "对该资讯的分析和判断"
+        },
+
+        "related": {
+          "type": "array",
+          "description": "相关链接",
+          "items": {
+            "$ref": "#/$defs/relatedLink"
+          }
+        }
+      }
+    },
+
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "url"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "信息来源名称"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "信息来源链接"
+        }
+      }
+    },
+
+    "image": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "url",
+        "alt"
+      ],
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "图片 URL"
+        },
+        "alt": {
+          "type": "string",
+          "description": "图片替代文本"
+        }
+      }
+    },
+
+    "relatedLink": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "url"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "链接标题"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "链接 URL"
+        }
+      }
+    }
+  }
+}

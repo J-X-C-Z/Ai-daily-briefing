@@ -1,0 +1,315 @@
+{
+  "bot": "collector-2",
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T16:00:00+08:00",
+  "note": "p2: tech_companies, open_source, research",
+  "categories": [
+    {
+      "id": "tech_companies",
+      "items": [
+        {
+          "id": "tc-001",
+          "type": "news",
+          "title": "英伟达Q2营收962亿美元，预计下一财年营收增长70%",
+          "importance": 5,
+          "published_at": "2026-08-29T00:00:00+08:00",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/technology/artificial-intelligence/"
+          },
+          "image": null,
+          "tags": ["NVIDIA", "财报", "营收", "AI芯片", "数据中心"],
+          "summary": "英伟达Q2营收962亿美元，数据中心收入890亿美元同比增长117%，预计下一财年营收增长70%，表明AI算力需求远未见顶。",
+          "details": [
+            "Q2总营收962亿美元，同比增长106%",
+            "数据中心收入890亿美元，同比增长117%，环比增长18%",
+            "GAAP和非GAAP毛利率均为75.0%",
+            "预计下一财年营收增长70%",
+            "宣布每股0.25美元股息，10月1日派发"
+          ],
+          "analysis": "英伟达业绩持续超预期，证明AI基础设施投入仍在加速，短期内GPU算力供不应求的格局不会改变。",
+          "related": []
+        },
+        {
+          "id": "tc-002",
+          "type": "news",
+          "title": "Meta测试数据中心机器人，可完成插拔线缆、重启服务器等运维工作",
+          "importance": 4,
+          "published_at": "2026-08-31T00:00:00+08:00",
+          "source": {
+            "name": "Wired / IT之家",
+            "url": "https://www.ithome.com/0/996/222.htm"
+          },
+          "image": null,
+          "tags": ["Meta", "数据中心", "机器人", "自动化", "AI基础设施"],
+          "summary": "Meta正在测试多种数据中心运维机器人，包括插拔线缆、重启服务器等，员工估计部分岗位最多可被替代80%工作量。",
+          "details": [
+            "Meta使用Watney Robotics、Kinova和ABB三家厂商的机器人",
+            "测试Kinova Gen3机械臂用于服务器电源循环",
+            "测试双臂Watney机器人用于布线工作",
+            "还有形似手指的小型装置可远程重启Mac Mini等设备",
+            "员工估计部分岗位最多80%工作量可被机器人替代"
+          ],
+          "analysis": "AI驱动的数据中心扩张催生了对运维自动化的需求，机器人替代技术岗位的趋势正在从制造业向IT基础设施蔓延。",
+          "related": []
+        },
+        {
+          "id": "tc-003",
+          "type": "news",
+          "title": "消息称微软收紧员工AI预算，有员工28天挥霍2.8万美元Token",
+          "importance": 3,
+          "published_at": "2026-08-31T00:00:00+08:00",
+          "source": {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/0/996/254.htm"
+          },
+          "image": null,
+          "tags": ["微软", "AI成本", "Token", "企业AI", "GPT5.6"],
+          "summary": "部分微软员工过度使用AI推高成本，一名员工28天AI调用花费超2.8万美元，微软已收紧管理并切换默认模型控制成本。",
+          "details": [
+            "一名员工28天AI调用Token花费超2.8万美元",
+            "微软高层对AI使用成本上涨感到担忧",
+            "已收紧管理，切换默认模型以控制成本",
+            "反映出企业AI落地中成本管控的挑战"
+          ],
+          "analysis": "企业AI采用面临\"用得起\"的现实挑战，Token经济学将成为企业AI战略的核心考量。",
+          "related": []
+        },
+        {
+          "id": "tc-004",
+          "type": "news",
+          "title": "SpaceX自产涡轮叶片，突破AI供电瓶颈",
+          "importance": 3,
+          "published_at": "2026-08-31T00:00:00+08:00",
+          "source": {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/0/996/176.htm"
+          },
+          "image": null,
+          "tags": ["SpaceX", "马斯克", "AI", "能源", "数据中心"],
+          "summary": "马斯克确认SpaceX正筹建燃气轮机叶片铸造厂，提前18个月投运，旨在解决AI数据中心供电瓶颈。",
+          "details": [
+            "SpaceX在得克萨斯州巴斯特罗普建设燃气轮机叶片铸造厂",
+            "全球仅3家企业能铸造此类叶片",
+            "目标提前18个月投运",
+            "旨在解决AI基础设施的能源供应瓶颈"
+          ],
+          "analysis": "AI算力竞赛正从芯片延伸到能源，SpaceX的垂直整合策略再次展现马斯克对基础设施瓶颈的前瞻性应对。",
+          "related": []
+        },
+        {
+          "id": "tc-005",
+          "type": "news",
+          "title": "顺丰董事长王卫加入极兔董事会，任非执行董事",
+          "importance": 2,
+          "published_at": "2026-08-30T00:00:00+08:00",
+          "source": {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/0/996/244.htm"
+          },
+          "image": null,
+          "tags": ["顺丰", "极兔", "王卫", "物流"],
+          "summary": "极兔速递发布公告，顺丰董事长王卫已获委任为公司非执行董事，任期自2026年8月20日至2028年12月31日。",
+          "details": [
+            "王卫任极兔非执行董事，任期至2028年底",
+            "顺丰与极兔此前已有业务合作",
+            "反映快递行业整合趋势加速"
+          ],
+          "analysis": "物流行业头部企业间人事渗透加深，暗示行业整合可能进入新阶段。",
+          "related": []
+        }
+      ]
+    },
+    {
+      "id": "open_source",
+      "items": [
+        {
+          "id": "os-001",
+          "type": "news",
+          "title": "基元律动完成数千万美元融资，推出\"中国版OpenRouter\"平台公测",
+          "importance": 4,
+          "published_at": "2026-08-27T00:00:00+08:00",
+          "source": {
+            "name": "经济参考报 / 观察者网",
+            "url": "https://www.guancha.cn/GongSi/2026_08_27_828878.shtml"
+          },
+          "image": null,
+          "tags": ["基元律动", "OpenRouter", "AI基础设施", "多模型API", "融资"],
+          "summary": "原华为盘古大模型负责人王云鹤创立的基元律动完成新一轮数千万美元融资，TokenRhythm API平台启动公测，对标OpenRouter。",
+          "details": [
+            "弘晖基金领投，聚合资本、尚势资本等机构参与",
+            "TokenRhythm定位为面向中国市场的一站式多模型API服务",
+            "平台已积累5.4万用户，单日Token调用量超5000亿",
+            "开发者只需一个API Key即可调用多种模型",
+            "此前OpenRouter被Stripe以超70亿美元收购"
+          ],
+          "analysis": "中国AI基础设施赛道的又一关键拼图，多模型路由平台在Agent时代将扮演核心角色。",
+          "related": []
+        },
+        {
+          "id": "os-002",
+          "type": "news",
+          "title": "Stripe超70亿美元收购OpenRouter，模型分发渠道价值飙升",
+          "importance": 4,
+          "published_at": "2026-08-19T00:00:00+08:00",
+          "source": {
+            "name": "观察者网 / Bloomberg",
+            "url": "https://www.guancha.cn/GongSi/2026_08_27_828878.shtml"
+          },
+          "image": null,
+          "tags": ["Stripe", "OpenRouter", "收购", "AI分发", "开发者"],
+          "summary": "支付巨头Stripe以超70亿美元收购AI模型路由平台OpenRouter，该平台每天处理超10万亿Token，连接400多个模型。",
+          "details": [
+            "交易价格超70亿美元，较5月融资时13亿估值翻了6倍",
+            "OpenRouter每天处理超10万亿Token",
+            "连接400多个模型，服务超1000万开发者和企业",
+            "年化收入约1.4亿美元，年化毛利润约1亿美元",
+            "中国模型在OpenRouter上的调用量已超美国模型"
+          ],
+          "analysis": "AI模型分发渠道正在成为新的基础设施，Stripe的收购表明支付与AI分发的融合趋势。",
+          "related": []
+        },
+        {
+          "id": "os-003",
+          "type": "news",
+          "title": "千问办公首发上线Qwen3.8-Flash，生成速度提升100%",
+          "importance": 3,
+          "published_at": "2026-08-27T00:00:00+08:00",
+          "source": {
+            "name": "量子位",
+            "url": "https://www.qbitai.com/"
+          },
+          "image": null,
+          "tags": ["Qwen", "千问", "阿里", "AI模型", "Flash"],
+          "summary": "千问办公首发上线Qwen3.8-Flash模型，生成速度提升100%，Token消耗减少75%，同步推出标准模式。",
+          "details": [
+            "Qwen3.8-Flash在千问办公首发上线",
+            "生成速度提升100%",
+            "Token消耗减少75%",
+            "同时推出标准模式"
+          ],
+          "analysis": "国产大模型在推理效率上的持续优化，降低企业AI使用成本。",
+          "related": []
+        },
+        {
+          "id": "os-004",
+          "type": "news",
+          "title": "阿里Qwen3.8-27B单卡可跑，部分基准超越Claude Opus",
+          "importance": 3,
+          "published_at": "2026-08-14T00:00:00+08:00",
+          "source": {
+            "name": "VentureBeat / Unbiased Headlines",
+            "url": "https://unbiasedheadlines.com/article/alibabas-qwen38-27b-runs-on-a-single-gaming-gpu-beats-some-claude-opus-benchmarks"
+          },
+          "image": null,
+          "tags": ["Qwen3.8", "开源模型", "阿里", "Claude Opus", "27B"],
+          "summary": "阿里Qwen3.8-27B开源模型可在单张消费级GPU上运行，SWE-bench Pro得分61.7，部分编码基准匹配或超越Claude Opus。",
+          "details": [
+            "27B参数模型，Apache 2.0开源协议",
+            "SWE-bench Pro得分61.7，LiveCodeBench v6得分90.3",
+            "可在RTX 4090或24GB统一内存Mac上运行",
+            "支持262,144 token上下文，可扩展至100万token",
+            "在Terminal-Bench和HLE上Opus仍领先"
+          ],
+          "analysis": "中国开源模型正在逼近美国闭源前沿模型的水平，开源与闭源的竞争格局持续演变。",
+          "related": []
+        },
+        {
+          "id": "os-005",
+          "type": "news",
+          "title": "DeepSeek Harness项目GitHub星标超14.8万",
+          "importance": 3,
+          "published_at": "2026-08-17T00:00:00+08:00",
+          "source": {
+            "name": "GitHub",
+            "url": "https://github.com/deepseek-ai/deepseek-harness"
+          },
+          "image": null,
+          "tags": ["DeepSeek", "开源", "GitHub", "Harness", "插件"],
+          "summary": "DeepSeek的deepseek-harness项目在GitHub上获得超过14.8万星标，采用\"一切皆插件\"的架构理念。",
+          "details": [
+            "GitHub星标超过148,247",
+            "采用TypeScript构建",
+            "\"一切皆插件\"的架构理念",
+            "DeepSeek持续在开源社区保持高活跃度"
+          ],
+          "analysis": "DeepSeek通过开源生态持续扩大在中国AI开发者中的影响力。",
+          "related": []
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "items": [
+        {
+          "id": "rs-001",
+          "type": "news",
+          "title": "行业首个量子增强型大模型\"玄幂Xenomi\"发布",
+          "importance": 3,
+          "published_at": "2026-08-29T00:00:00+08:00",
+          "source": {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/0/996/131.htm"
+          },
+          "image": null,
+          "tags": ["量子计算", "AI模型", "玄幂", "国光量子", "科研"],
+          "summary": "国光量子推出玄幂（Xenomi）大模型家族，将量子技术引入大语言模型决策与推理过程，为行业首个量子增强型大模型。",
+          "details": [
+            "国光量超人工智能研究团队开发",
+            "面向科研和学术领域",
+            "在科研科普、路由和智能体决策等任务中展现更稳定表现",
+            "采用领域模型训练方案，自主构建海量数据集",
+            "在SOTA级别开源基座模型基础上深度训练"
+          ],
+          "analysis": "量子计算与AI的交叉探索值得关注，但量子增强的实际效果仍需更多独立验证。",
+          "related": []
+        },
+        {
+          "id": "rs-002",
+          "type": "news",
+          "title": "全球首个基于外科世界模型的人形手术机器人项目启动",
+          "importance": 3,
+          "published_at": "2026-08-29T00:00:00+08:00",
+          "source": {
+            "name": "新浪财经",
+            "url": "https://finance.sina.com.cn/jjxw/2026-08-29/doc-inipymqv9196436.shtml"
+          },
+          "image": null,
+          "tags": ["手术机器人", "世界模型", "张江", "医疗器械", "AI医疗"],
+          "summary": "2026年张江药谷创新大会上，\"全球首个基于外科世界模型的人形手术机器人项目\"正式启动。",
+          "details": [
+            "项目在2026年张江药谷创新大会·医疗器械论坛上启动",
+            "三年内将打造10个标杆应用场景",
+            "推广20个高性能模型与工具",
+            "助力40个创新药械产品进入临床"
+          ],
+          "analysis": "世界模型技术从自动驾驶向外科手术领域拓展，具身智能在医疗场景的应用前景广阔。",
+          "related": []
+        },
+        {
+          "id": "rs-004",
+          "type": "news",
+          "title": "Hugging Face推出Microduck机器人鸭子，24小时预订破260万美元",
+          "importance": 3,
+          "published_at": "2026-08-31T00:00:00+08:00",
+          "source": {
+            "name": "IT之家",
+            "url": "https://www.ithome.com/0/996/201.htm"
+          },
+          "image": null,
+          "tags": ["Hugging Face", "机器人", "开源硬件", "Microduck"],
+          "summary": "Hugging Face旗下Pollen Robotics推出售价399美元的Microduck机器人鸭子，24小时内预订金额破260万美元。",
+          "details": [
+            "Microduck由Hugging Face旗下Pollen Robotics推出",
+            "售价399美元",
+            "24小时内预订金额破260万美元",
+            "已出现订单积压，新订单预计4至6个月后交付",
+            "被称为\"首个真正可及的强化学习机器人\""
+          ],
+          "analysis": "开源机器人硬件的商业化尝试取得初步成功，低门槛RL机器人可能加速具身智能的普及。",
+          "related": []
+        }
+      ]
+    }
+  ]
+}

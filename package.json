@@ -1,0 +1,24 @@
+{
+  "name": "ai-daily-briefing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "每日科技资讯早报系统：Agent 产出 JSON → 程序校验 → 渲染 HTML 邮件 → 定时发送",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dedupe": "node scripts/dedupe.js",
+    "merge": "node scripts/merge.js",
+    "validate": "node scripts/validate.js",
+    "generate": "node scripts/generate.js",
+    "send": "node scripts/send.js",
+    "build": "node scripts/validate.js && node scripts/generate.js",
+    "pipeline": "node scripts/validate.js && node scripts/generate.js && node scripts/send.js"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "nodemailer": "^6.9.15"
+  }
+}

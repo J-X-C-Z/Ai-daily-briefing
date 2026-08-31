@@ -1,0 +1,265 @@
+{
+  "bot": "collector3",
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T15:55:00+08:00",
+  "note": "第三批：免费与低价福利、科技研究、机器人与航天栏目。所有条目均在时间窗口内。",
+  "categories": [
+    {
+      "id": "free_deals",
+      "items": [
+        {
+          "id": "free_deals-001",
+          "type": "deal",
+          "title": "Customer.io为初创企业提供12个月免费自动化消息服务",
+          "importance": 3,
+          "published_at": "2026-08-31T10:00:00+08:00",
+          "source": {
+            "name": "Product Hunt",
+            "url": "https://www.producthunt.com/products/customer-io"
+          },
+          "image": null,
+          "tags": ["免费", "初创企业", "自动化消息", "营销工具", "SaaS"],
+          "summary": "Customer.io宣布为初创企业提供12个月免费的自动化消息服务，帮助初创企业降低营销和客户沟通成本。",
+          "details": [
+            "Customer.io为初创企业提供12个月免费服务",
+            "服务包括自动化消息、邮件营销等功能",
+            "旨在帮助初创企业降低营销成本",
+            "需要通过Product Hunt申请"
+          ],
+          "analysis": "这一优惠为初创企业提供了宝贵的免费营销工具资源，有助于降低创业初期的运营成本。",
+          "related": []
+        },
+        {
+          "id": "free_deals-002",
+          "type": "deal",
+          "title": "OpenMAIC：开源多智能体课堂系统，免费获得沉浸式AI学习体验",
+          "importance": 3,
+          "published_at": "2026-08-31T10:00:00+08:00",
+          "source": {
+            "name": "GitHub",
+            "url": "https://github.com/THU-MAIC/OpenMAIC"
+          },
+          "image": null,
+          "tags": ["免费", "开源", "AI教育", "多智能体", "学习工具"],
+          "summary": "清华大学MAIC团队发布OpenMAIC，这是一个开源的多智能体交互式课堂系统，用户可以免费获得沉浸式多智能体学习体验。",
+          "details": [
+            "OpenMAIC是开源的多智能体交互式课堂系统",
+            "用户只需一键即可获得沉浸式学习体验",
+            "完全免费使用，无需付费订阅",
+            "由清华大学MAIC团队开发"
+          ],
+          "analysis": "OpenMAIC为教育领域提供了免费的AI学习工具，有望推动AI教育的普及和发展。",
+          "related": []
+        },
+        {
+          "id": "free_deals-003",
+          "type": "deal",
+          "title": "Sayscroll：AI提词器，根据说话速度自动滚动",
+          "importance": 2,
+          "published_at": "2026-08-31T10:00:00+08:00",
+          "source": {
+            "name": "Product Hunt",
+            "url": "https://www.producthunt.com/products/sayscroll"
+          },
+          "image": null,
+          "tags": ["AI", "提词器", "视频", "生产力工具", "免费试用"],
+          "summary": "Sayscroll是一款AI提词器工具，能够根据说话者的语速自动滚动文本，适合视频录制和直播场景，提供免费试用。",
+          "details": [
+            "Sayscroll是AI驱动的提词器工具",
+            "能根据说话者语速自动滚动文本",
+            "适合视频录制和直播场景",
+            "提供免费试用"
+          ],
+          "analysis": "Sayscroll展示了AI在内容创作工具中的实用应用，为视频创作者提供了便捷的提词解决方案。",
+          "related": []
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "items": [
+        {
+          "id": "research-001",
+          "type": "news",
+          "title": "NASA罗曼太空望远镜由SpaceX猎鹰重型火箭成功发射",
+          "importance": 5,
+          "published_at": "2026-08-30T15:51:00+08:00",
+          "source": {
+            "name": "Space.com",
+            "url": "https://www.space.com/space-exploration/launches-spacecraft/nasa-roman-space-telescope-launch-success-on-a-spacex-falcon-heavy-rocket-spectacular-launch-video"
+          },
+          "image": null,
+          "tags": ["NASA", "SpaceX", "太空望远镜", "航天", "罗曼"],
+          "summary": "NASA罗曼太空望远镜由SpaceX猎鹰重型火箭成功发射，这是NASA新一代天文学观测的重要里程碑，将用于研究暗能量和系外行星。",
+          "details": [
+            "NASA罗曼太空望远镜成功发射",
+            "由SpaceX猎鹰重型火箭运载",
+            "这是NASA新一代天文学观测的重要里程碑",
+            "望远镜将用于研究暗能量和系外行星"
+          ],
+          "analysis": "罗曼太空望远镜的成功发射标志着人类太空观测能力的重要提升，将为天文学研究提供宝贵数据。",
+          "related": []
+        },
+        {
+          "id": "research-002",
+          "type": "news",
+          "title": "Simon Willison分析理解ChatGPT的工作机制",
+          "importance": 3,
+          "published_at": "2026-08-30T16:00:00+08:00",
+          "source": {
+            "name": "Simon Willison",
+            "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/"
+          },
+          "image": null,
+          "tags": ["AI研究", "ChatGPT", "LLM", "技术分析", "开发者博客"],
+          "summary": "知名开发者Simon Willison发表文章深入分析ChatGPT的工作机制，探讨其内部运作原理和技术细节。",
+          "details": [
+            "Simon Willison发表关于ChatGPT工作机制的分析文章",
+            "深入探讨ChatGPT的内部运作原理",
+            "为开发者理解LLM技术提供参考",
+            "文章在Hacker News上获得41分"
+          ],
+          "analysis": "这类技术分析文章有助于开发者更好地理解和使用AI模型，促进AI技术的普及和应用。",
+          "related": []
+        },
+        {
+          "id": "research-003",
+          "type": "news",
+          "title": "连续扩散语言模型（CDLM）：探索LLM推理新范式",
+          "importance": 4,
+          "published_at": "2026-08-30T13:00:00+08:00",
+          "source": {
+            "name": "Sander.ai",
+            "url": "https://sander.ai/2026/08/24/continuous-dlms.html"
+          },
+          "image": null,
+          "tags": ["AI研究", "扩散模型", "语言模型", "LLM", "推理"],
+          "summary": "Sander.ai发表文章探讨连续扩散语言模型（CDLM），这是一种结合扩散模型和语言模型的新范式，可能为LLM推理提供新的技术路径。",
+          "details": [
+            "连续扩散语言模型（CDLM）结合了扩散模型和语言模型",
+            "探索LLM推理的新技术范式",
+            "可能为AI模型性能提升提供新方向",
+            "文章在Hacker News上获得61分"
+          ],
+          "analysis": "CDLM代表了AI研究的前沿方向，将扩散模型的成功经验引入语言模型领域，可能推动AI推理技术的突破。",
+          "related": ["https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model/"]
+        },
+        {
+          "id": "research-004",
+          "type": "news",
+          "title": "Kuleshov团队发布如何构建扩散语言模型的技术博客",
+          "importance": 3,
+          "published_at": "2026-08-30T11:00:00+08:00",
+          "source": {
+            "name": "Kuleshov Group",
+            "url": "https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model/"
+          },
+          "image": null,
+          "tags": ["AI研究", "扩散模型", "技术博客", "教程", "语言模型"],
+          "summary": "Kuleshov团队发布详细技术博客，介绍如何构建扩散语言模型，为研究人员和开发者提供了实用的技术指南。",
+          "details": [
+            "博客详细介绍了构建扩散语言模型的步骤",
+            "为研究人员和开发者提供了实用的技术指南",
+            "涵盖了模型架构、训练方法等关键技术细节",
+            "有助于推动扩散语言模型技术的普及"
+          ],
+          "analysis": "这类技术博客有助于降低AI研究的技术门槛，促进新技术的传播和应用。",
+          "related": ["https://sander.ai/2026/08/24/continuous-dlms.html"]
+        }
+      ]
+    },
+    {
+      "id": "space_robotics",
+      "items": [
+        {
+          "id": "space_robotics-001",
+          "type": "news",
+          "title": "NASA罗曼太空望远镜由SpaceX猎鹰重型火箭成功发射",
+          "importance": 5,
+          "published_at": "2026-08-30T15:51:00+08:00",
+          "source": {
+            "name": "Space.com",
+            "url": "https://www.space.com/space-exploration/launches-spacecraft/nasa-roman-space-telescope-launch-success-on-a-spacex-falcon-heavy-rocket-spectacular-launch-video"
+          },
+          "image": null,
+          "tags": ["NASA", "SpaceX", "太空望远镜", "航天", "罗曼"],
+          "summary": "NASA罗曼太空望远镜由SpaceX猎鹰重型火箭成功发射，这是NASA新一代天文学观测的重要里程碑，将用于研究暗能量和系外行星。",
+          "details": [
+            "NASA罗曼太空望远镜成功发射",
+            "由SpaceX猎鹰重型火箭运载",
+            "这是NASA新一代天文学观测的重要里程碑",
+            "望远镜将用于研究暗能量和系外行星"
+          ],
+          "analysis": "罗曼太空望远镜的成功发射标志着人类太空观测能力的重要提升，将为天文学研究提供宝贵数据。",
+          "related": []
+        },
+        {
+          "id": "space_robotics-002",
+          "type": "news",
+          "title": "塞尔维亚首座机器人工厂投产，由中国和塞尔维亚联合建设",
+          "importance": 4,
+          "published_at": "2026-08-30T15:00:00+08:00",
+          "source": {
+            "name": "Facebook/环球时报",
+            "url": "https://www.facebook.com/globaltimesnews/posts/serbias-first-robot-factory-began-production-in-sabac-on-saturday-jointly-built-/1619976906841177/"
+          },
+          "image": null,
+          "tags": ["机器人", "塞尔维亚", "中国制造", "智能制造", "国际合作"],
+          "summary": "塞尔维亚首座机器人工厂在萨巴奇投产，该工厂由中国和塞尔维亚联合建设，标志着中国智能制造技术的海外扩张和'一带一路'倡议在高科技领域的影响。",
+          "details": [
+            "塞尔维亚首座机器人工厂在萨巴奇投产",
+            "工厂由中国和塞尔维亚联合建设",
+            "标志着中国智能制造技术的海外扩张",
+            "反映了'一带一路'倡议在高科技领域的影响"
+          ],
+          "analysis": "这座工厂的投产展示了中国智能制造技术的国际竞争力，以及中国与东欧国家在高科技领域的合作深化。",
+          "related": []
+        },
+        {
+          "id": "space_robotics-003",
+          "type": "news",
+          "title": "国投智能安保机器人业务处于试点验证阶段，正构建'平台+运营'闭环",
+          "importance": 3,
+          "published_at": "2026-08-31T10:00:00+08:00",
+          "source": {
+            "name": "36氪",
+            "url": "https://36kr.com/newsflashes/3962776001739912"
+          },
+          "image": null,
+          "tags": ["机器人", "安保", "AI", "国投智能", "商业模式"],
+          "summary": "国投智能在互动平台表示，公司安保机器人业务目前处于试点验证阶段，正积极构建'平台+运营'业务闭环，探索'租赁+服务'的RaaS商业模式。",
+          "details": [
+            "国投智能安保机器人业务处于试点验证阶段",
+            "正积极构建'平台+运营'业务闭环",
+            "探索'租赁+服务'的RaaS商业模式",
+            "依托'元枢'大脑AI能力以及公共安全场景积淀"
+          ],
+          "analysis": "国投智能的安保机器人业务展示了中国企业在AI机器人领域的商业探索，RaaS模式有望推动机器人服务的普及。",
+          "related": []
+        },
+        {
+          "id": "space_robotics-004",
+          "type": "news",
+          "title": "Cores in space：1980年太空实验室计算机的核心内存模块",
+          "importance": 2,
+          "published_at": "2026-08-30T10:00:00+08:00",
+          "source": {
+            "name": "Righto",
+            "url": "https://www.righto.com/2026/08/spacelab-core-memory.html"
+          },
+          "image": null,
+          "tags": ["航天", "计算机历史", "太空", "硬件", "复古计算"],
+          "summary": "Righto博客展示了1980年太空实验室计算机的核心内存模块，回顾了航天计算机技术的发展历程。",
+          "details": [
+            "展示了1980年太空实验室计算机的核心内存模块",
+            "回顾了航天计算机技术的发展历程",
+            "核心内存是早期计算机的关键存储技术",
+            "该文章在Hacker News上获得82分"
+          ],
+          "analysis": "这类技术考古文章帮助我们理解航天计算机技术的演进，展示了从核心内存到现代存储技术的发展轨迹。",
+          "related": []
+        }
+      ]
+    }
+  ]
+}
